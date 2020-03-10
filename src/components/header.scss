@@ -1,0 +1,66 @@
+/* Theme */
+$font-color: #c4c4c4;
+$side-padding: 15px;
+
+body {
+    margin: 8px;
+}
+
+.profilepic {
+    vertical-align: middle;
+
+    height: 80px;
+
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#title {
+    background-color: #636363;
+
+    text-align: center;
+    vertical-align: middle;
+
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #212121;
+
+    /* height: 100; */
+
+    padding: 20px;
+
+    text-decoration: none;
+
+    transition: font-size 1s;
+}
+
+.title-text {
+    text-decoration: none;
+}
+
+.title-text:hover {
+    color: #212121;
+}
+
+body {
+    background-color: #333333;
+    color: $font-color;
+    font-family: sans-serif;
+    line-height: 1.5;
+
+    font-size: 1.1rem;
+}
+
+code {
+    font-size: 12pt !important;
+}
+
+a {
+    transition: color 0.1s linear;
+
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}

@@ -1,0 +1,17 @@
+.blog-post-content {
+    max-width: 60%;
+    margin: auto;
+
+    text-align: left;
+}
+
+.blog-post-container {
+    text-align: center;
+}
+
+// Line highlight fix
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding: 0;
+    padding-left: 2.8em;
+    overflow: initial;
+}
