@@ -1,10 +1,8 @@
-# SponsorBlock Landing
+# My blog
 
 This uses the `gatsby` static site generator.
 
 Install `npm` to start.
-
-Then `cd SponsorBlockSite`.
 
 ### Install dependencies
 
@@ -34,4 +32,4 @@ You can then use `npm run serve` to preview the website before deployment.
 
 ___________________________________________________
 
-Thanks for the rewrite [@jplsek](https://github.com/jplsek)!
+Based on [@jplsek](https://github.com/jplsek)'s rewrite of the [SponsorBlock](https://github.com/ajayyy/SponsorBlockSite) site.
