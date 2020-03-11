@@ -3,6 +3,7 @@ path: "/planets-or-a-multiplayer-planet-gravity-game"
 date: "2019-06-17"
 title: "Planets | A Multiplayer Planet Gravity Game"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/ZZHBS4fX-planets20demo201.gif"
+tags: '["utopian-io","development","programming","open-source","palnet"]'
 ---
 
 #### Repository

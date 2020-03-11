@@ -3,6 +3,7 @@ path: "/cunctans-square--turn-based-puzzle-game"
 date: "2018-08-14"
 title: "Cunctan's Square | Turn Based Puzzle Game"
 image: "https://ipfs.busy.org/ipfs/QmSB5GiFdy44a9aHHkBMgBmJkmndYTFywdq8pQx8ezYBDu"
+tags: '["utopian-io","development","gamdev","gaming","programming"]'
 ---
 
 ![ld41_final_quality.gif](https://ipfs.busy.org/ipfs/QmSB5GiFdy44a9aHHkBMgBmJkmndYTFywdq8pQx8ezYBDu)

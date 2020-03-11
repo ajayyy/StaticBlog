@@ -3,6 +3,7 @@ path: "/schedule-improvements-and-fallbacks-or-android-development-1540864708646
 date: "2018-10-30"
 title: "Schedule Improvements and Fallbacks | Android Development"
 image: "https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmNNTNB9yNjwxyCaYVXrVYkZbRM7hvqaJMZNgjv2R64T3U/image.png"
+tags: '["utopian-io","development","android","programming","apps"]'
 ---
 
 #### Repository

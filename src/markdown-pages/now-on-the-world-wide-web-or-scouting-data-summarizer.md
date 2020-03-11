@@ -3,6 +3,7 @@ path: "/now-on-the-world-wide-web-or-scouting-data-summarizer"
 date: "2019-05-05"
 title: "Now On The World Wide Web | Scouting Data Summarizer"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+tags: '["utopian-io","development","programming","android","opensource"]'
 ---
 
 #### Repository

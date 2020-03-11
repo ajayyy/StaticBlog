@@ -3,6 +3,7 @@ path: "/ui-elements-and-building-improvements-or-voster-coaster-or-vr-roller-coa
 date: "2018-08-21"
 title: "UI Elements and Building Improvements | Voster Coaster | VR Roller Coaster Building and Tycoon Game | Development Update"
 image: "https://cdn.steemitimages.com/DQmeSpy1iRSfZRaVgdtsHRfRF5GYY4nBcHpxMRRxGJecrpR/radial%20menu%202.gif"
+tags: '["utopian-io","development","programming","gaming","vostercoaster"]'
 ---
 
 (Sorry, my computer cannot handle recording while running in VR well)

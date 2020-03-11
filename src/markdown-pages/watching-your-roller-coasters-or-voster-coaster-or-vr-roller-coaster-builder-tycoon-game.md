@@ -3,6 +3,7 @@ path: "/watching-your-roller-coasters-or-voster-coaster-or-vr-roller-coaster-bui
 date: "2018-07-30"
 title: "Watching Your Roller Coasters | Voster Coaster | VR Roller Coaster Builder Tycoon Game"
 image: "https://ipfs.busy.org/ipfs/QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct"
+tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
 ![track preview.gif](https://ipfs.busy.org/ipfs/QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct)

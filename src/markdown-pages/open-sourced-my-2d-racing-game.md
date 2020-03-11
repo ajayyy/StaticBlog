@@ -3,6 +3,7 @@ path: "/open-sourced-my-2d-racing-game"
 date: "2017-11-19"
 title: "Open Sourced My 2D Racing Game"
 image: "https://ajay.app/FocusProgramSite/2dRacer.gif"
+tags: '["utopian-io","game","game-dev"]'
 ---
 
 Hello, I have been working on a 2D racing game, it is a top down racing game with features similar to Mario Kart (power ups).

@@ -3,6 +3,7 @@ path: "/more-data-and-better-quality-data-or-android-development"
 date: "2019-02-19"
 title: "More Data and Better Quality Data | Android Development"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/57ZR0uTJ-image.png"
+tags: '["utopian-io","development","programming","android"]'
 ---
 
 #### Repository

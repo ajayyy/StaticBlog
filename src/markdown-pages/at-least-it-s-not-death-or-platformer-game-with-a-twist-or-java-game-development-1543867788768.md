@@ -3,6 +3,7 @@ path: "/at-least-it-s-not-death-or-platformer-game-with-a-twist-or-java-game-dev
 date: "2018-12-03"
 title: "At Least It's Not Death | Platformer Game With A Twist | Java Game Development"
 image: "https://static.jam.vg/raw/a1/z/1c6ed.gif"
+tags: '["utopian-io","development","gamedev","programming","fun"]'
 ---
 
 #### Repository

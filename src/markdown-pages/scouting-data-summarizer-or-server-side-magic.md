@@ -3,6 +3,7 @@ path: "/scouting-data-summarizer-or-server-side-magic"
 date: "2019-04-17"
 title: "Scouting Data Summarizer | Server-Side Magic"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+tags: '["utopian-io","development","programming","electron","nodejs"]'
 ---
 
 #### Repository

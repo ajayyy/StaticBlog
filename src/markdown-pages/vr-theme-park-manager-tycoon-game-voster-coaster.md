@@ -3,6 +3,7 @@ path: "/vr-theme-park-manager-tycoon-game-voster-coaster"
 date: "2018-02-26"
 title: "VR Theme Park Manager Tycoon Game - Voster Coaster!"
 image: "https://img.youtube.com/vi/ZS0W4qKWxXk/0.jpg"
+tags: '["utopian-io","vr","unity3d","gamdev","vostercoaster"]'
 ---
 
 # Video of current progress

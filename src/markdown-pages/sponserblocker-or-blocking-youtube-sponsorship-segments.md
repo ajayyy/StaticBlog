@@ -3,6 +3,7 @@ path: "/sponserblocker-or-blocking-youtube-sponsorship-segments"
 date: "2019-07-10"
 title: "SponsorBlock | Blocking YouTube Sponsorship Segments"
 image: "https://steemitimages.com/0x0/https://files.steempeak.com/file/steempeak/ajayyy/bFn6a9nb-image.png"
+tags: '["utopian-io","development","programming","youtube","sponsorblock"]'
 ---
 
 #### Repository

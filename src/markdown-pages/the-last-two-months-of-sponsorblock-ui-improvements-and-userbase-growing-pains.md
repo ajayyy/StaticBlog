@@ -3,6 +3,7 @@ path: "/the-last-two-months-of-sponsorblock-ui-improvements-and-userbase-growing
 date: "2019-10-31"
 title: "The last two months of SponsorBlock - UI improvements and userbase growing pains"
 image: "https://media.discordapp.net/attachments/605458918621315098/613127382546513920/fade_out_2.gif"
+tags: '["utopian-io","programming","sponsorblock","marlians","development"]'
 ---
 
 #### Repository

@@ -3,6 +3,7 @@ path: "/turn-based-attacker-networking-lan-multiplayer"
 date: "2018-01-26"
 title: "Turn Based Attacker - Networking + LAN Multiplayer"
 image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1517004745/shboosva3fsoe9wq30p9.png"
+tags: '["utopian-io","unity","unity3d","gamedev","2dgamedev"]'
 ---
 
 

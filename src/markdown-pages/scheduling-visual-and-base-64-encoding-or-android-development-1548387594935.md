@@ -3,6 +3,7 @@ path: "/scheduling-visual-and-base-64-encoding-or-android-development-1548387594
 date: "2019-01-25"
 title: "Scheduling Visual and Base 64 encoding | Android Development"
 image: "https://ipfs.busy.org/ipfs/QmZG1pDBhTMetMotqRJxtWr9VFNovtesZUDvTNu6sxKjKb"
+tags: '["utopian-io","development","programming","android","oepnsource"]'
 ---
 
 #### Repository

@@ -3,6 +3,7 @@ path: "/ready-for-rollout-or-sponsorblock-or-youtube-sponsorship-segment-blocker
 date: "2019-07-22"
 title: "Ready for Rollout | SponsorBlock | YouTube Sponsorship Segment Blocker"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/KbpbivRJ-mutliple20notices.gif"
+tags: '["utopian-io","development","palnet","stem","sponsorblock"]'
 ---
 
 #### Repository

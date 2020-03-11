@@ -3,6 +3,7 @@ path: "/scouting-data-summarizer"
 date: "2019-03-27"
 title: "Scouting Data Summarizer"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+tags: '["utopian-io","development","programming","opensource","steemit"]'
 ---
 
 #### Repository

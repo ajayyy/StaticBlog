@@ -3,6 +3,7 @@ path: "/youtube-watch-history-statistics-viewer"
 date: "2017-12-23"
 title: "YouTube Watch History Statistics Viewer"
 image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1514007567/lyg7mlwrmvqaxxnak0md.png"
+tags: '["utopian-io","youtube-api","youtube-statistics","statistics","year-in-review"]'
 ---
 
 # What is this

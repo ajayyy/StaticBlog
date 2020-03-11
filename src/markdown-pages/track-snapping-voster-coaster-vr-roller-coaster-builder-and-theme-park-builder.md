@@ -3,6 +3,7 @@ path: "/track-snapping-voster-coaster-vr-roller-coaster-builder-and-theme-park-b
 date: "2018-03-14"
 title: "Track Snapping - Voster Coaster - VR Roller Coaster Builder and Theme Park Builder"
 image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1521001885/gztp2taqnxzvkrt0vycn.png"
+tags: '["utopian-io","gamedev","vr","unity3d","vr-gamedev"]'
 ---
 
 

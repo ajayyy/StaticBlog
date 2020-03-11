@@ -3,6 +3,7 @@ path: "/turn-based-attacker"
 date: "2018-01-04"
 title: "Turn Based Attacker"
 image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1515093489/hh5rnvgzbdupqmdhjeks.png"
+tags: '["utopian-io","unity","game","game-dev","unity3d"]'
 ---
 
 # What is this

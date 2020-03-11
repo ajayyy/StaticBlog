@@ -8,10 +8,10 @@ import PostList from "../components/post-list";
 const IndexPage = () => (
     <Header>
         <h1 style={{textAlign: "center", margin: "0px"}}>
-            Latest Blog Posts
+            SponsorBlock News
         </h1>
 
-        <PostList/>
+        <PostList filter={(edge) => JSON.parse(edge.node.frontmatter.tags).includes("sponsorblock")}/>
     </Header>
 );
 

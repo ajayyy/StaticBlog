@@ -3,6 +3,7 @@ path: "/video-player-controls-and-visual-overhaul-or-youtube-sponsorblocker"
 date: "2019-07-13"
 title: "Video Player Controls and Visual Overhaul | YouTube SponsorBlocker"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/37GSA0wm-image.png"
+tags: '["utopian-io","development","programming","palnet","sponsorblock"]'
 ---
 
 #### Repository

@@ -3,6 +3,7 @@ path: "/turn-based-attacker-playablity-and-polish"
 date: "2018-01-18"
 title: "Turn Based Attacker - Playablity, Polish, and Save/Load"
 image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1516305306/brrbvtchqc6a7uzvadgu.png"
+tags: '["utopian-io","unity","unity3d","gamedev","2dgame"]'
 ---
 
 # What is this

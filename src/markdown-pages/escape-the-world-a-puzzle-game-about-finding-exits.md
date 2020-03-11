@@ -3,6 +3,7 @@ path: "/escape-the-world-a-puzzle-game-about-finding-exits"
 date: "2017-12-06"
 title: "Escape The World, A Puzzle Game About Finding Exits"
 image: "https://static.jam.vg/raw/a1/z/1ce0.png"
+tags: '["utopian-io","game-development","java","java-2d","programming"]'
 ---
 
 # Hello

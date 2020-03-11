@@ -3,6 +3,7 @@ path: "/building-hills-or-building-roller-coasters-or-voster-coaster-or-vr-game-
 date: "2018-07-22"
 title: "Building Hills | Building Roller Coasters | Voster Coaster | VR Game Programming"
 image: "https://img.youtube.com/vi/XGmVYe82HlQ/0.jpg"
+tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
 https://youtu.be/XGmVYe82HlQ

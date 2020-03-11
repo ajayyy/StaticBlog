@@ -3,6 +3,7 @@ path: "/making-roller-coasters-or-bending-track-pieces-or-voster-coaster"
 date: "2018-06-09"
 title: "Bending Track Pieces | Building Roller Coasters | Voster Coaster"
 image: "https://ipfs.busy.org/ipfs/Qmeq3eZj6ehPgut499D85qypLJNQCU2dHM6AtsQrohwEfJ"
+tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
 # Repository

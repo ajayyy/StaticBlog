@@ -3,6 +3,7 @@ path: "/bluetooth-syncing-schedule-or-android-developement-1539735660793"
 date: "2018-10-17"
 title: "Bluetooth Syncing Schedule | Android Developement"
 image: "https://cdn.steemitimages.com/DQmNNTNB9yNjwxyCaYVXrVYkZbRM7hvqaJMZNgjv2R64T3U/image.png"
+tags: '["utopian-io","development","programming","android","bluetooth"]'
 ---
 
 #### Repository

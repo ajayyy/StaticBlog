@@ -3,6 +3,7 @@ path: "/voting-and-pseudo-randomness-or-sponsorblock-or-youtube-sponsorship-segm
 date: "2019-07-18"
 title: "Voting and Pseudo-Randomness | SponsorBlock | YouTube Sponsorship Segment Blocker"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/pfdj2YXf-voting.gif"
+tags: '["utopian-io","development","programming","palnet","sponsorblock"]'
 ---
 
 #### Repository

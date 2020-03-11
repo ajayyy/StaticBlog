@@ -3,6 +3,7 @@ path: "/prevent-mistakes-and-more-data-to-analyse-or-android-development"
 date: "2019-02-24"
 title: "Prevent Mistakes And More Data To Analyse | Android Development"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+tags: '["utopian-io","development","programming","opensource","android"]'
 ---
 
 #### Repository

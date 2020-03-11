@@ -3,6 +3,7 @@ path: "/more-improvements-from-feedback-or-android-development"
 date: "2019-04-07"
 title: "More Improvements From Feedback | Android Development"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+tags: '["utopian-io","development","programming","opensource","steem"]'
 ---
 
 #### Repository

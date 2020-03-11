@@ -3,6 +3,7 @@ path: "/sponsorblock-block-youtube-sponsorships"
 date: "2019-07-29"
 title: "SponsorBlock - Block YouTube Sponsorships"
 image: "https://files.steempeak.com/file/steempeak/ajayyy/QvIzibaj-sponsorEditing.gif"
+tags: '["utopian-io","development","programming","stem","palnet","sponsorblock"]'
 ---
 
 #### Repository
