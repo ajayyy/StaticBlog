@@ -8,7 +8,7 @@ const Header = (props) => {
     return (
         <>
             <div id="title">
-                <img src="ajay_profile.jpg" class="profilepic"/>
+                <img src="/ajay_profile.jpg" class="profilepic"/>
                 {" "}
                 {
                     props.url ? 
