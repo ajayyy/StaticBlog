@@ -4,19 +4,27 @@ import { Link } from "gatsby";
 
 import "./header.scss";
 
-const Header = ({ children }) => {
+const Header = (props) => {
     return (
         <>
             <div id="title">
                 <img src="ajay_profile.jpg" class="profilepic"/>
                 {" "}
-                <a href="https://ajay.app"
-                    className="title-text">
-                    Ajay Ramachandran
-                </a>
+                {
+                    props.url ? 
+                    <Link to={props.url}
+                        className="title-text">
+                        Ajay Ramachandran
+                    </Link>
+                    :
+                    <a href="https://ajay.app"
+                        className="title-text">
+                        Ajay Ramachandran
+                    </a>
+                }
             </div>
 
-            <main>{children}</main>
+            <main>{props.children}</main>
         </>
     );
 };
