@@ -2,7 +2,7 @@
 path: "/making-roller-coasters-or-real-time-track-edits-or-voster-coaster"
 date: "2018-06-15"
 title: "Real-Time Track Edits | Building Roller Coasters | Voster Coaster"
-image: "https://ipfs.busy.org/ipfs/QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes"
+image: "./images/63_caption_QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
@@ -16,11 +16,11 @@ Voster Coaster is a VR game where you build roller coasters. I plan on making it
 # Made the height of track pieces uniform for turns
 
 Before, the inside turn would be scaled to the correct height:
-![image.png](https://ipfs.busy.org/ipfs/QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes)
+![image.png](./images/QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes)
 
 
 Now, the outside turn is:
-![image.png](https://ipfs.busy.org/ipfs/QmRp48ztumVnzZcP8U75EGdCccxGnyxhm6Mu8Bbw8DXYjg)
+![image.png](./images/QmRp48ztumVnzZcP8U75EGdCccxGnyxhm6Mu8Bbw8DXYjg)
 
 This is much more useful, as it makes the total height uniform, and will help when combining turn pieces with normal pieces.
 
@@ -28,15 +28,15 @@ This is much more useful, as it makes the total height uniform, and will help wh
 
 For angle of 27 degrees before the change:
 
-![image.png](https://ipfs.busy.org/ipfs/QmSUcue2ank4XotBdYvfQmkRrVJcrXbdzE7rLwBCxyoVh6)
+![image.png](./images/QmSUcue2ank4XotBdYvfQmkRrVJcrXbdzE7rLwBCxyoVh6)
 
 After:
-![image.png](https://ipfs.busy.org/ipfs/QmZgKCQSAa8jZuAwNDj4efa8nSpNNb6KL1fptZatvVg6zV)
+![image.png](./images/QmZgKCQSAa8jZuAwNDj4efa8nSpNNb6KL1fptZatvVg6zV)
 
 ### How?
 
 To fix this, I had to think of the track piece as one section of a full circle
-![image.png](https://ipfs.busy.org/ipfs/QmbW8eRouaZVRH7VDEr7QMxqMr5arpTJ319kzBArik9L2h)
+![image.png](./images/QmbW8eRouaZVRH7VDEr7QMxqMr5arpTJ319kzBArik9L2h)
 
 Then, I can use SOH CAH TOA to know that the Cos of the angle B (in this case 90 - 27 as shown in the diagram above), is equal to the adjacent divided by the hypotenuse.
 
@@ -57,7 +57,7 @@ float radius1 = Mathf.Abs(sizes[i]) / Mathf.Cos(totalAngle * Mathf.Deg2Rad);
 Now, the proper radius is calculated instead of just assuming that the full height is the radius (as that would only work for a 90 degree turn).
 
 # Real-time track adjustment
-![realtime-track-adjustment.gif](https://ipfs.busy.org/ipfs/QmUCVTC8ThpKmspCERk8mPaNQ2qBJwVB2nT2XBRfYkHxR8)
+![realtime-track-adjustment.gif](./images/QmUCVTC8ThpKmspCERk8mPaNQ2qBJwVB2nT2XBRfYkHxR8)
 
 This was [done](https://github.com/ajayyy/VosterCoasterVR/pull/7/commits/2c5e172b54bc189f28f454a66ee1103069df509c) by creating a function to reset the track completely. This makes it so that you can modify it again.
 

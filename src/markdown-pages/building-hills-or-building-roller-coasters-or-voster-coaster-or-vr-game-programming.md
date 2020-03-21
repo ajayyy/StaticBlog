@@ -2,7 +2,7 @@
 path: "/building-hills-or-building-roller-coasters-or-voster-coaster-or-vr-game-programming"
 date: "2018-07-22"
 title: "Building Hills | Building Roller Coasters | Voster Coaster | VR Game Programming"
-image: "https://img.youtube.com/vi/XGmVYe82HlQ/0.jpg"
+image: "./images/55_caption_0.jpg"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
@@ -13,7 +13,7 @@ https://github.com/ajayyy/VosterCoasterVR
 
 # Inclines
 
-![image.png](https://ipfs.busy.org/ipfs/QmbMg5ZsLqbosd6JEvypnvkXZ9kVGW2zH6GYYBnns4hT3c)
+![image.png](./images/QmbMg5ZsLqbosd6JEvypnvkXZ9kVGW2zH6GYYBnns4hT3c)
 
 Inclines are created similarly to turns, except they are rotated upward.
 
@@ -37,7 +37,7 @@ I tried to rotate the angles by adding and subtracting angles, but that turned o
 
 After a lot of thinking, I decided to model the situation in a 3D painting program (Tilt Brush), and figured out a solution.
 
-![image.png](https://ipfs.busy.org/ipfs/QmQmCmuZdZoGHqraU7BKXHTFNNogLhRxaNBqV4Z8kXDPVB)
+![image.png](./images/QmQmCmuZdZoGHqraU7BKXHTFNNogLhRxaNBqV4Z8kXDPVB)
 
 I figured out that the axis changes could be discovered using sin and cosine. By looking the rotations and positions of the track for 4 situations (0 degrees, 90, 180, 270), I was able to find the pattern.
 

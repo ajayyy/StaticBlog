@@ -2,7 +2,7 @@
 path: "/youtube-watch-history-statistics-viewer"
 date: "2017-12-23"
 title: "YouTube Watch History Statistics Viewer"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1514007567/lyg7mlwrmvqaxxnak0md.png"
+image: "./images/84_caption_lyg7mlwrmvqaxxnak0md.png"
 tags: '["utopian-io","youtube-api","youtube-statistics","statistics","year-in-review"]'
 ---
 
@@ -22,9 +22,9 @@ Also, if you do try it out, please report if it worked well for you in the comme
 
 # Screenshots
 
-![screenshot1.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1514007567/lyg7mlwrmvqaxxnak0md.png)
+![screenshot1.png](./images/lyg7mlwrmvqaxxnak0md.png)
 
-![screenshot2.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1514007695/tcto9mxfvflfa0vl66ai.png)
+![screenshot2.png](./images/tcto9mxfvflfa0vl66ai.png)
 
 
 # Development

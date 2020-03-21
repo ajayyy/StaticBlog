@@ -2,20 +2,20 @@
 path: "/ui-elements-and-building-improvements-or-voster-coaster-or-vr-roller-coaster-building-and-tycoon-game-or-development-update-1534825023124"
 date: "2018-08-21"
 title: "UI Elements and Building Improvements | Voster Coaster | VR Roller Coaster Building and Tycoon Game | Development Update"
-image: "https://cdn.steemitimages.com/DQmeSpy1iRSfZRaVgdtsHRfRF5GYY4nBcHpxMRRxGJecrpR/radial%20menu%202.gif"
+image: "./images/43_caption_radial%20menu%202.gif"
 tags: '["utopian-io","development","programming","gaming","vostercoaster"]'
 ---
 
 (Sorry, my computer cannot handle recording while running in VR well)
 
-![radial menu 2.gif](https://cdn.steemitimages.com/DQmeSpy1iRSfZRaVgdtsHRfRF5GYY4nBcHpxMRRxGJecrpR/radial%20menu%202.gif)
+![radial menu 2.gif](./images/radial%20menu%202.gif)
 
 #### Repository
 https://github.com/ajayyy/CunctansSquare
 
 # Radial UI
 
-![radial menu 4.gif](https://cdn.steemitimages.com/DQmaNgf1x4hJVyqNGWuqtwecWt7xrr88uhWjzEBgSYmzcQw/radial%20menu%204.gif)
+![radial menu 4.gif](./images/radial%20menu%204.gif)
 
 I created a radial menu,
 
@@ -28,7 +28,7 @@ https://github.com/ajayyy/VosterCoaster/pull/17/files#diff-bbd14ff151f2f7f75a517
 
 # Floating Windows
 
-![floating window.PNG](https://cdn.steemitimages.com/DQmVBw6cuyeHATaKzQutmVU6ViafBMgW2w3UMnmM7gX5bk8/floating%20window.PNG)
+![floating window.PNG](./images/floating%20window.PNG)
 
 I wasn't able to get a recording of the floating windows, the recording was 1 frame per second.
 

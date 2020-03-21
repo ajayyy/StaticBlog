@@ -2,7 +2,7 @@
 path: "/scouting-data-summarizer-or-server-side-magic"
 date: "2019-04-17"
 title: "Scouting Data Summarizer | Server-Side Magic"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+image: "./images/17_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","electron","nodejs"]'
 ---
 
@@ -82,16 +82,16 @@ event.sender.send("showOverallSummary", result);
 ```
 
 New processing speed:
-![instant processing.gif](https://files.steempeak.com/file/steempeak/ajayyy/fwBATP1S-instant20processing.gif)
+![instant processing.gif](./images/fwBATP1S-instant20processing.gif)
 
 Old slow speed:
-![slow processing.gif](https://files.steempeak.com/file/steempeak/ajayyy/WtkLMpLw-slow20processing.gif)
+![slow processing.gif](./images/WtkLMpLw-slow20processing.gif)
 
 # Added fractions alongside the percentages
 
 Now, whenever there is a percentage, it also shows the fraction that made it (because sometimes those can be more understandable). For example, when showing success rate, it will show 80% along with 8/10 (10 total matches).
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/XKOaJCHh-image.png)
+![image.png](./images/XKOaJCHh-image.png)
 
 # Made pressing enter on the textbox load data
 
@@ -117,7 +117,7 @@ The comments in the database always had some placeholder characters such as `|c`
 
 This was put in place to prevent issues when data is transferred in the companion scouting app.
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/9UIrjWwL-image.png)
+![image.png](./images/9UIrjWwL-image.png)
 (Names blanked out)
 
 # Improved max performance algorithm

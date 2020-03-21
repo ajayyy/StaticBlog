@@ -2,7 +2,7 @@
 path: "/planets-or-a-multiplayer-planet-gravity-game"
 date: "2019-06-17"
 title: "Planets | A Multiplayer Planet Gravity Game"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/ZZHBS4fX-planets20demo201.gif"
+image: "./images/13_caption_ZZHBS4fX-planets20demo201.gif"
 tags: '["utopian-io","development","programming","open-source","palnet"]'
 ---
 
@@ -14,7 +14,7 @@ This is multiplayer planet-based game. There are planets, circles with a gravita
 
 At the moment, there is no game, however you can move around and shoot other players. Theoretically, it can support as many players as you need (or hit the integer cap of 2.14 billion).
 
-![planets demo 1.gif](https://files.steempeak.com/file/steempeak/ajayyy/ZZHBS4fX-planets20demo201.gif)
+![planets demo 1.gif](./images/ZZHBS4fX-planets20demo201.gif)
 
 # Instructions to run
 

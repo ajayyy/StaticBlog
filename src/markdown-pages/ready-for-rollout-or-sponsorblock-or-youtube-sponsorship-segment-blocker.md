@@ -2,7 +2,7 @@
 path: "/ready-for-rollout-or-sponsorblock-or-youtube-sponsorship-segment-blocker"
 date: "2019-07-22"
 title: "Ready for Rollout | SponsorBlock | YouTube Sponsorship Segment Blocker"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/KbpbivRJ-mutliple20notices.gif"
+image: "./images/4_caption_KbpbivRJ-mutliple20notices.gif"
 tags: '["utopian-io","development","palnet","stem","sponsorblock"]'
 ---
 
@@ -20,17 +20,17 @@ https://github.com/ajayyy/SponsorBlockServer
 
 - Made it possible for multiple notices to appear, added an animation for it.
 
-![mutliple notices.gif](https://files.steempeak.com/file/steempeak/ajayyy/KbpbivRJ-mutliple20notices.gif)
+![mutliple notices.gif](./images/KbpbivRJ-mutliple20notices.gif)
 
 - Added button to popup to allow you to vote from the popup.
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/pKwBlmYP-image.png)
+![image.png](./images/pKwBlmYP-image.png)
 
 - Added messages to indicate the status of different things, such as errors or that it's loading
 
 - Added submit button on the video player.
 
-![submit animation.gif](https://files.steempeak.com/file/steempeak/ajayyy/rymnMa7n-submit20animation.gif)
+![submit animation.gif](./images/rymnMa7n-submit20animation.gif)
 
 - Made it keep checking for submitted sponsor times every 10 seconds on recent videos.
 

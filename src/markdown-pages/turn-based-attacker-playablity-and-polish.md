@@ -2,7 +2,7 @@
 path: "/turn-based-attacker-playablity-and-polish"
 date: "2018-01-18"
 title: "Turn Based Attacker - Playablity, Polish, and Save/Load"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1516305306/brrbvtchqc6a7uzvadgu.png"
+image: "./images/76_caption_brrbvtchqc6a7uzvadgu.png"
 tags: '["utopian-io","unity","unity3d","gamedev","2dgame"]'
 ---
 
@@ -16,15 +16,15 @@ I added many things in this release.
 
 I added a scoreboard to the end of the game to show the winners and losers, and to see who died last.
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1516305306/brrbvtchqc6a7uzvadgu.png)
+![image.png](./images/brrbvtchqc6a7uzvadgu.png)
 
 I also added color fading, so when the current player switches, it won't immediatly change the color, but slowly fade to not hurt your eyes. I also added many animations for things spawning in, to make the whole game look smoother overall.
 
-![2a86d39e-1393-445e-969b-3c8443de8333.gif](https://res.cloudinary.com/hpiynhbhq/image/upload/v1516305705/i53fnxi52chjr0h0pqmn.gif)
+![2a86d39e-1393-445e-969b-3c8443de8333.gif](./images/i53fnxi52chjr0h0pqmn.gif)
 
 But, the most important thing I added was game saving, you can now save your game and load it for later.
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1516305363/gkpupojafojelrhwwufi.png)
+![image.png](./images/gkpupojafojelrhwwufi.png)
 
 I also added many playabilty fixes like making the pickups spawn throughout the gameplay so you never run out.
 

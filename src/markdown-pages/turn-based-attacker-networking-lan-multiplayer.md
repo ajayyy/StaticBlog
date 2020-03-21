@@ -2,7 +2,7 @@
 path: "/turn-based-attacker-networking-lan-multiplayer"
 date: "2018-01-26"
 title: "Turn Based Attacker - Networking + LAN Multiplayer"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1517004745/shboosva3fsoe9wq30p9.png"
+image: "./images/75_caption_shboosva3fsoe9wq30p9.png"
 tags: '["utopian-io","unity","unity3d","gamedev","2dgamedev"]'
 ---
 
@@ -15,11 +15,11 @@ This is a turn based strategy game where you must try to kill all the other play
 
 In this release I added the ability to play a networked game. Now you can have other players join your game and can play together, from different computers.
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1517004745/shboosva3fsoe9wq30p9.png)
+![image.png](./images/shboosva3fsoe9wq30p9.png)
 
 You can join by specifying their ip address.
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1517004804/uccwpjxxjs3imphmfsgo.png)
+![image.png](./images/uccwpjxxjs3imphmfsgo.png)
 
 The game communicates over TCP and sends messages for what button was pressed, or what person became selected. The networking is done manually by sending strings of text signifying a command, and since TCP sometimes groups commands, the game will make sure to separate commands before executing them.
 

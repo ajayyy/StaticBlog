@@ -2,7 +2,7 @@
 path: "/competition-time"
 date: "2019-03-16"
 title: "Competition Time"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+image: "./images/21_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","android","opensource"]'
 ---
 
@@ -56,7 +56,7 @@ This is cached on the first app open for each version of the app. A check is put
 
 Above the schedule, it also shows the last update time to make sure the user knows if the schedule might be out of date (as they can't be synced constantly since it is synced over bluetooth only when the server device is nearby).
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/rJc4obkc-image.png)
+![image.png](./images/rJc4obkc-image.png)
 
 # Questions
 

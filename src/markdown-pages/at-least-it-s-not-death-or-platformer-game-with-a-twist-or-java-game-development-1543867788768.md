@@ -2,14 +2,14 @@
 path: "/at-least-it-s-not-death-or-platformer-game-with-a-twist-or-java-game-development-1543867788768"
 date: "2018-12-03"
 title: "At Least It's Not Death | Platformer Game With A Twist | Java Game Development"
-image: "https://static.jam.vg/raw/a1/z/1c6ed.gif"
+image: "./images/26_caption_1c6ed.gif"
 tags: '["utopian-io","development","gamedev","programming","fun"]'
 ---
 
 #### Repository
 https://github.com/ajayyy/AtLeastItsNotDeath/
 
-![](https://static.jam.vg/raw/a1/z/1c6ed.gif)
+![](./images/1c6ed.gif)
 This is one of the visual effects thay might be applied, constantly changing colours.
 
 # What is it?
@@ -45,17 +45,17 @@ This makes the movement much nicer to look at.
 
 ##### Random rotation
 
-![](https://static.jam.vg/raw/a1/z/1c731.gif)
+![](./images/1c731.gif)
 
 ##### Screenshake
 
-![](https://static.jam.vg/raw/a1/z/1c70f.gif)
+![](./images/1c70f.gif)
 
 ##### Low lighting effect
 
 It is made using shaders. It is based off vertexes (corners) of each object.
 
-![](https://static.jam.vg/raw/a1/z/1de25.gif)
+![](./images/1de25.gif)
 
 #### Download And Try It
 

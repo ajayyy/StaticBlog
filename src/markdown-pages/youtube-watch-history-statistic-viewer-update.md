@@ -2,11 +2,11 @@
 path: "/youtube-watch-history-statistic-viewer-update"
 date: "2017-12-29"
 title: "YouTube Watch History Statistic Viewer Update"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1514575279/hkrrdpvcgw5aabvxvgoe.png"
+image: "./images/79_caption_hkrrdpvcgw5aabvxvgoe.png"
 tags: '["utopian-io","youtube","stats","youtube-stats"]'
 ---
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1514575279/hkrrdpvcgw5aabvxvgoe.png)
+![image.png](./images/hkrrdpvcgw5aabvxvgoe.png)
 
 # What is this
 
@@ -18,7 +18,7 @@ Google doesn't save your watch history forever, so now I have included a feature
 
 I have also made a nice download page to show off features of the program.
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1514575154/yhfujxjkoptx26tehtj2.png)
+![image.png](./images/yhfujxjkoptx26tehtj2.png)
 
 You can see the live site at [YoutubeSta.ts.io](http://YoutubeSta.ts.io/)
 

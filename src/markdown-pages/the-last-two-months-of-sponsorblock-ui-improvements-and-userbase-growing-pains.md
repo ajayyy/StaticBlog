@@ -2,7 +2,7 @@
 path: "/the-last-two-months-of-sponsorblock-ui-improvements-and-userbase-growing-pains"
 date: "2019-10-31"
 title: "The last two months of SponsorBlock - UI improvements and userbase growing pains"
-image: "https://media.discordapp.net/attachments/605458918621315098/613127382546513920/fade_out_2.gif"
+image: "./images/1_caption_fade_out_2.gif"
 tags: '["utopian-io","programming","sponsorblock","marlians","development"]'
 ---
 
@@ -12,9 +12,9 @@ https://github.com/ajayyy/SponsorBlock
 Since my last update post was in August, this is a recap of everything important that has happened since.
 
 # New notice
-![](https://media.discordapp.net/attachments/605458918621315098/613127382546513920/fade_out_2.gif)
+![](./images/fade_out_2.gif)
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/613146262488875120/reskip.gif)
+![](./images/reskip.gif)
 
 This notice not only looks waaay better than the original, it also:
 
@@ -34,7 +34,7 @@ To counter the issue of people not realizing they are upvoting, downvotes now co
 
 # Preview Unsubmitted Sponsors
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/613800560344432650/unknown.png)
+![](./images/unknown.png)
 
 They appear in blue.
 
@@ -48,7 +48,7 @@ There is also now a auto temp-ban system in place. If there are too many low ran
 
 Before, this was annoying for people with different keyboard layouts.
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/639308577403830282/setkeybinds.gif)
+![](./images/setkeybinds.gif)
 
 # Userbase growing pains
 

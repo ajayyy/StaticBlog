@@ -2,7 +2,7 @@
 path: "/scheduling-system-or-android-development-1536956863425"
 date: "2018-09-14"
 title: "Scheduling System | Android Development"
-image: "https://dl2.pushbulletusercontent.com/taIpvFbpIhiw8sWQawTUPkrAAZM21MkD/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png"
+image: "./images/36_caption_Screenshot_Lake_Effect_Scouting_App_20180914-162415.png"
 tags: '["utopian-io","development","gamedev","programming","gaming"]'
 ---
 
@@ -20,7 +20,7 @@ The apps are built with Java and use bluetooth to communicate. The layouts are m
 # What have I implemented
 Now that all of the nessesary features of the app are implemented, I am implementing a system to organise and schedule when people should switch on and off scouting to prevent chaos and prevent someone needing to do it manually.
 
-![](https://dl2.pushbulletusercontent.com/taIpvFbpIhiw8sWQawTUPkrAAZM21MkD/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
+![](./images/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
 # Server
 On the server, I have created a UI for adding a bunch of active devices to a list to be able to pull them all in one button pressed.
 
@@ -28,8 +28,8 @@ I implemented a user UI to add and remove a list of users.
 
 This list of users will be used to send to the client devices so they know what users are scheduled to scout when.
 
-![](https://dl2.pushbulletusercontent.com/Bg0adNPbZVMdBzOMQYveB50cr9rDDtYm/Screenshot_ScoutingServerApp_20180908-230102.png)
-![](https://dl2.pushbulletusercontent.com/UzEuNuL9RWYoAfFOtN4jwEzfsGR7Q1cE/Screenshot_ScoutingServerApp_20180914-162347.png)
+![](./images/Screenshot_ScoutingServerApp_20180908-230102.png)
+![](./images/Screenshot_ScoutingServerApp_20180914-162347.png)
 # Client
 On the client, you now just have to select a match number, the robot number and team (alliance) it is on is dicided based on the schedule.
 # Future

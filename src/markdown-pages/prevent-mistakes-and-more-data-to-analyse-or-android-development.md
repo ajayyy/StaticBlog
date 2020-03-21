@@ -2,7 +2,7 @@
 path: "/prevent-mistakes-and-more-data-to-analyse-or-android-development"
 date: "2019-02-24"
 title: "Prevent Mistakes And More Data To Analyse | Android Development"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/Kfvwvueh-image.png"
+image: "./images/22_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","opensource","android"]'
 ---
 
@@ -25,7 +25,7 @@ In the last update, I made it so that there were two pages for scouting, one for
 
 This should prevent many mistakes due to forgetfulness.
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/xHsa0p97-image.png)
+![image.png](./images/xHsa0p97-image.png)
 
 ### Close and far (visible and invisible)
 

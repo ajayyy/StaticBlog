@@ -2,11 +2,11 @@
 path: "/watching-your-roller-coasters-or-voster-coaster-or-vr-roller-coaster-builder-tycoon-game"
 date: "2018-07-30"
 title: "Watching Your Roller Coasters | Voster Coaster | VR Roller Coaster Builder Tycoon Game"
-image: "https://ipfs.busy.org/ipfs/QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct"
+image: "./images/50_caption_QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
-![track preview.gif](https://ipfs.busy.org/ipfs/QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct)
+![track preview.gif](./images/QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct)
 
 # Repository
 https://github.com/ajayyy/VosterCoasterVR
@@ -37,11 +37,11 @@ Sadly, the same jumping issue remained.
 
 ### Even more realism
 
-![image.png](https://ipfs.busy.org/ipfs/QmS1uK893oUJvqeTfm8pBTHo4U5JVzzBsGb7DeSp32uiAf)
+![image.png](./images/QmS1uK893oUJvqeTfm8pBTHo4U5JVzzBsGb7DeSp32uiAf)
 
 I tried recreating a real roller coaster's wheel system by having wheels above and below the track.
 
-![image.png](https://ipfs.busy.org/ipfs/QmcmD8ZRqs6MXhi4KFjYaPo885F3WWDFs3RNoy6XtJNP9x)
+![image.png](./images/QmcmD8ZRqs6MXhi4KFjYaPo885F3WWDFs3RNoy6XtJNP9x)
 
 This still had the same issues and it was boggling my mind.
 
@@ -102,7 +102,7 @@ float forceDown = (-9.81f) / 60f;
 float gravityAcceleration = Mathf.Sin(inclineAngleOfTrack * Mathf.Deg2Rad) * forceDown;
 ```
 
-![image.png](https://ipfs.busy.org/ipfs/QmccqpLXSurc931HpFTdm5BwKRbHPQPxWyy3H5BRzzqf1J)
+![image.png](./images/QmccqpLXSurc931HpFTdm5BwKRbHPQPxWyy3H5BRzzqf1J)
 
 The blue arrow is the downward force and the red arrow is what we are trying to find. The green arrow would be found if you use cosine instead.
 

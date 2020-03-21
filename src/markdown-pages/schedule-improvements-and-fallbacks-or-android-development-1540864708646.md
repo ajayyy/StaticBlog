@@ -2,7 +2,7 @@
 path: "/schedule-improvements-and-fallbacks-or-android-development-1540864708646"
 date: "2018-10-30"
 title: "Schedule Improvements and Fallbacks | Android Development"
-image: "https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmNNTNB9yNjwxyCaYVXrVYkZbRM7hvqaJMZNgjv2R64T3U/image.png"
+image: "./images/29_caption_image.png"
 tags: '["utopian-io","development","android","programming","apps"]'
 ---
 
@@ -18,8 +18,8 @@ https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp
 > This is an app to do scouting. Recording data on paper and then putting it in a database is convoluted and wasteful, so we built an app to replace this system. 6 people use the app independently on Android devices and record data about one robot each per game. A server app can then pull data from all the devices to combine it all in one. This act of recording data is called scouting, and is done by someone called a scout. Each set of data is for one match of the game.
 > 
 
-![](https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmNNTNB9yNjwxyCaYVXrVYkZbRM7hvqaJMZNgjv2R64T3U/image.png)
-![](https://steemitimages.com/600x800/https://dl2.pushbulletusercontent.com/taIpvFbpIhiw8sWQawTUPkrAAZM21MkD/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
+![](./images/image.png)
+![](./images/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
 
 ### New Features
 

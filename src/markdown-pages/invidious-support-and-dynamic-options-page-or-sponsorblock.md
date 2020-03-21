@@ -2,7 +2,7 @@
 path: "/invidious-support-and-dynamic-options-page-or-sponsorblock"
 date: "2020-01-19"
 title: "Invidious Support and Dynamic Options Page | SponsorBlock"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/Jk4CpOE5-image.png"
+image: "./images/0_caption_Jk4CpOE5-image.png"
 tags: '["development","programming","sponsorblock","palnet"]'
 ---
 
@@ -35,11 +35,11 @@ You can now enable invidious support in the options by clicking the toggle and a
 
 # Options Page
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/Jk4CpOE5-image.png)
+![image.png](./images/Jk4CpOE5-image.png)
 
 The way options used to be handled was terrible.
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/vxlmT38X-image.png)
+![image.png](./images/vxlmT38X-image.png)
 
 There were just a bunch of buttons in the popup that changed their text when you toggled them.
 

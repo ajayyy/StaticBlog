@@ -2,7 +2,7 @@
 path: "/scheduling-visual-and-base-64-encoding-or-android-development-1548387594935"
 date: "2019-01-25"
 title: "Scheduling Visual and Base 64 encoding | Android Development"
-image: "https://ipfs.busy.org/ipfs/QmZG1pDBhTMetMotqRJxtWr9VFNovtesZUDvTNu6sxKjKb"
+image: "./images/24_caption_QmZG1pDBhTMetMotqRJxtWr9VFNovtesZUDvTNu6sxKjKb"
 tags: '["utopian-io","development","programming","android","oepnsource"]'
 ---
 
@@ -18,7 +18,7 @@ This is a scouting app developed for FIRST Robotics Team 2708. It is used to sco
 
 I made a visualizer to show the who is scouting which robot and when. This a feature I added a few months ago that assigned a schedule to when people are scouting to give people breaks and create a shift system. Only 6 people need to be scouting at a time. 
 
-![image.png](https://ipfs.busy.org/ipfs/QmZG1pDBhTMetMotqRJxtWr9VFNovtesZUDvTNu6sxKjKb)
+![image.png](./images/QmZG1pDBhTMetMotqRJxtWr9VFNovtesZUDvTNu6sxKjKb)
 
 ### Base 64 encoding
 
@@ -28,7 +28,7 @@ This also makes data loss a lot harder, as the base 64 decoder knows when data i
 
 This was done using Java's built in function `Base64.encode()` which converts the `String` or `byte[]` to a `byte[]` with an encoded message. This then is sent over bluetooth and decoded on that side.
 
-![image.png](https://ipfs.busy.org/ipfs/QmdwbVhp2dzYMbMDoazqgdyzvKesVomefmmJm29p6QtdrP)
+![image.png](./images/QmdwbVhp2dzYMbMDoazqgdyzvKesVomefmmJm29p6QtdrP)
 
 ### Fixed end splitter issues
 

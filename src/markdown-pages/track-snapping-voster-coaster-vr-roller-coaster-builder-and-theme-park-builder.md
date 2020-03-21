@@ -2,14 +2,14 @@
 path: "/track-snapping-voster-coaster-vr-roller-coaster-builder-and-theme-park-builder"
 date: "2018-03-14"
 title: "Track Snapping - Voster Coaster - VR Roller Coaster Builder and Theme Park Builder"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1521001885/gztp2taqnxzvkrt0vycn.png"
+image: "./images/72_caption_gztp2taqnxzvkrt0vycn.png"
 tags: '["utopian-io","gamedev","vr","unity3d","vr-gamedev"]'
 ---
 
 
 # Placement
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1521001885/gztp2taqnxzvkrt0vycn.png)
+![image.png](./images/gztp2taqnxzvkrt0vycn.png)
 
 
 Before, in my proof of concept build, you could drop a full roller coaster in mid-air, and it would fall to the ground. Now, I have changed that entirely.
@@ -40,7 +40,7 @@ This grabs makes a box cast downward, from the right controller's position, with
 
 # Track Snapping
 
-![image.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1521001796/qivvfypgytelpkpkuvfj.png)
+![image.png](./images/qivvfypgytelpkpkuvfj.png)
 
 
 Another feature I added was the ability for tracks to snap together. If you attempt to place a track on another track, it will snap it beside it, to the closest side. This takes the boxraycast and checks if there is a game object with the tag "Track" under it. If so, it can calculate the position necessary to spawn it.

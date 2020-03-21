@@ -2,7 +2,7 @@
 path: "/turn-based-attacker"
 date: "2018-01-04"
 title: "Turn Based Attacker"
-image: "https://res.cloudinary.com/hpiynhbhq/image/upload/v1515093489/hh5rnvgzbdupqmdhjeks.png"
+image: "./images/77_caption_hh5rnvgzbdupqmdhjeks.png"
 tags: '["utopian-io","unity","game","game-dev","unity3d"]'
 ---
 
@@ -10,11 +10,11 @@ tags: '["utopian-io","unity","game","game-dev","unity3d"]'
 
 This is a 2d turn based open source game written in Unity. This game supports up to 16 players currently. In this game, each player takes their turn either moving, or collecting powerups. When they finish their turn it moves on the the next player. The goal is to eliminate all other players.
 
-![screenshot.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1515093489/hh5rnvgzbdupqmdhjeks.png)
+![screenshot.png](./images/hh5rnvgzbdupqmdhjeks.png)
 
 And here is an image of the animation system when it changes turns.
 
-![screenshot.png](https://media.discordapp.net/attachments/297559869333176330/393896314330546177/turn_based_turn_changing.gif)
+![screenshot.png](./images/turn_based_turn_changing.gif)
 
 On the left is the status of all players, it lists all the players, how many units they currently have alive, and which player's turn it is. When it is your turn, you can select one of your players by clicking on them, and move them using WASD, it will then move on to the next turn. If you currently have a powerup used, you can press E, and use it.
 

@@ -2,7 +2,7 @@
 path: "/making-roller-coasters-or-bending-track-pieces-or-voster-coaster"
 date: "2018-06-09"
 title: "Bending Track Pieces | Building Roller Coasters | Voster Coaster"
-image: "https://ipfs.busy.org/ipfs/Qmeq3eZj6ehPgut499D85qypLJNQCU2dHM6AtsQrohwEfJ"
+image: "./images/64_caption_Qmeq3eZj6ehPgut499D85qypLJNQCU2dHM6AtsQrohwEfJ"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 
@@ -17,8 +17,8 @@ Voster Coaster is a VR game where you build roller coasters. I plan on making it
 
 In this update I focused on the ability to form a full roller coaster from parts. To do so, I implemented a system that could take a track piece and bend it to add an incline, or make it a turn piece. This is going to be used to make a full spline-based roller coaster creator in the future.
 
-![image.png](https://ipfs.busy.org/ipfs/Qmeq3eZj6ehPgut499D85qypLJNQCU2dHM6AtsQrohwEfJ)
-![image.png](https://ipfs.busy.org/ipfs/QmNVLJH9SBwREpQhrKXuATqVyB9rrPezZrw5fZ4mKSLBGV)
+![image.png](./images/Qmeq3eZj6ehPgut499D85qypLJNQCU2dHM6AtsQrohwEfJ)
+![image.png](./images/QmNVLJH9SBwREpQhrKXuATqVyB9rrPezZrw5fZ4mKSLBGV)
 
 # How was this implemented?
 
@@ -30,7 +30,7 @@ In this update I focused on the ability to form a full roller coaster from parts
 
 In Unity, bones get represented as movable objects in the hierarchy. These objects can be moved around just as if they were a normal game object.
 
-![image.png](https://ipfs.busy.org/ipfs/QmaGDKJAVNaxiHPumfjjnfdc3mrpNrcLkj8tr8UmUSy2uq)
+![image.png](./images/QmaGDKJAVNaxiHPumfjjnfdc3mrpNrcLkj8tr8UmUSy2uq)
 
 ### Exponential looking curves
 
@@ -83,7 +83,7 @@ sizes[i] = rails[i][rails[i].Length - 1].transform.position.z - rails[i][0].tran
 
 For turns, each rail would be a different size, as they have to travel further to reach the same spot (it is like a bigger circle.
 
-![image.png](https://ipfs.busy.org/ipfs/QmPAx2Eg4GeF2mQrmYLm9QFpFm4hg8LZjXkNqCGhZmVujW)
+![image.png](./images/QmPAx2Eg4GeF2mQrmYLm9QFpFm4hg8LZjXkNqCGhZmVujW)
 
 As you can see in the above image, if the curve is the same size, it will not reach the same point. The orange is where the curve **should** reach to.
 

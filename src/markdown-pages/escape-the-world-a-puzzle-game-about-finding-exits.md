@@ -2,7 +2,7 @@
 path: "/escape-the-world-a-puzzle-game-about-finding-exits"
 date: "2017-12-06"
 title: "Escape The World, A Puzzle Game About Finding Exits"
-image: "https://static.jam.vg/raw/a1/z/1ce0.png"
+image: "./images/85_caption_1ce0.png"
 tags: '["utopian-io","game-development","java","java-2d","programming"]'
 ---
 
@@ -21,8 +21,8 @@ This is made in Java with no extra libraries. The art is made in Inkscape.
 To use this project, just download the git repo, and open it up with the Eclipse IDE.
 
 # Image
-![Image 1](https://static.jam.vg/raw/a1/z/1ce0.png)
-![Image 2](https://static.jam.vg/raw/a1/z/1cdf.png)
+![Image 1](./images/1ce0.png)
+![Image 2](./images/1cdf.png)
 
 # Download
 

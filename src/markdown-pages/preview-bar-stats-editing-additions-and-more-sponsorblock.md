@@ -2,7 +2,7 @@
 path: "/preview-bar-stats-editing-additions-and-more-sponsorblock"
 date: "2019-08-13"
 title: "Preview Bar, Stats, Editing Additions And More - SponsorBlock"
-image: "https://files.steempeak.com/file/steempeak/ajayyy/P7jmWDbc-image.png"
+image: "./images/2_caption_P7jmWDbc-image.png"
 tags: '["utopian-io","development","programming","stem","pal","sponsorblock","marlians"]'
 ---
 
@@ -10,7 +10,7 @@ tags: '["utopian-io","development","programming","stem","pal","sponsorblock","ma
 https://github.com/ajayyy/SponsorBlock
 https://github.com/ajayyy/SponsorBlockServer
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/gBb8T4DG-image.png)
+![image.png](./images/gBb8T4DG-image.png)
 
 # SponsorBlock
 
@@ -32,9 +32,9 @@ You can now see who the top contributors of this extension are and choose a user
 
 https://sponsor.ajay.app/stats/
 
-![image.png](https://files.steempeak.com/file/steempeak/ajayyy/P7jmWDbc-image.png)
+![image.png](./images/P7jmWDbc-image.png)
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/610677141171863562/usernames.gif)
+![](./images/usernames.gif)
 
 ##### New notice position
 
@@ -48,7 +48,7 @@ The local submission counter now is better and only counts submissions if the se
 
 You can now white list channels and see their sponsors. This doesn't work on 0 second sponsors to keep them loading as fast as possible, but it does work for later sponsors.
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/607397554388467712/whitelisting.gif)
+![](./images/whitelisting.gif)
 
 
 ##### More sponsor updated
@@ -63,17 +63,17 @@ Button padding has been increased.
 
 Added a preview button to go a few seconds before the sponsor and see how it looks.
 
-![](https://imgur.com/50ogSx3.gif)
+![](./images/50ogSx3.gif)
 
 Added a button to set the current time in an edit.
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/610554728228847636/current_time.gif)
+![](./images/current_time.gif)
 
 #### Preview bar
 
 You can now see when the sponsors will happen on the seek bar
 
-![](https://cdn.discordapp.com/attachments/605458918621315098/610617369102123048/unknown.png)
+![](./images/unknown.png)
 
 #### Downvoting a sponsor will hide it for you
 
