@@ -2,7 +2,7 @@
 path: "/preview-bar-stats-editing-additions-and-more-sponsorblock"
 date: "2019-08-13"
 title: "Preview Bar, Stats, Editing Additions And More - SponsorBlock"
-image: "./images/2_caption_P7jmWDbc-image.png"
+image: "/images/2_caption_P7jmWDbc-image.png"
 tags: '["utopian-io","development","programming","stem","pal","sponsorblock","marlians"]'
 ---
 

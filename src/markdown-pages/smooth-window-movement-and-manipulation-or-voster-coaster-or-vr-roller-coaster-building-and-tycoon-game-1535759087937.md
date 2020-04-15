@@ -2,7 +2,7 @@
 path: "/smooth-window-movement-and-manipulation-or-voster-coaster-or-vr-roller-coaster-building-and-tycoon-game-1535759087937"
 date: "2018-08-31"
 title: "Smooth Window Movement And Manipulation | Voster Coaster | VR Roller Coaster Building And Tycoon Game"
-image: "./images/40_caption_0.jpg"
+image: "/images/40_caption_0.jpg"
 tags: '["utopian-io","development","gamedev","programming","vostercoaster"]'
 ---
 

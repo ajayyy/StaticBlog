@@ -2,7 +2,7 @@
 path: "/competition-time"
 date: "2019-03-16"
 title: "Competition Time"
-image: "./images/21_caption_Kfvwvueh-image.png"
+image: "/images/21_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","android","opensource"]'
 ---
 

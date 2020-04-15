@@ -2,7 +2,7 @@
 path: "/scheduling-system-or-android-development-1536956863425"
 date: "2018-09-14"
 title: "Scheduling System | Android Development"
-image: "./images/36_caption_Screenshot_Lake_Effect_Scouting_App_20180914-162415.png"
+image: "/images/36_caption_Screenshot_Lake_Effect_Scouting_App_20180914-162415.png"
 tags: '["utopian-io","development","gamedev","programming","gaming"]'
 ---
 

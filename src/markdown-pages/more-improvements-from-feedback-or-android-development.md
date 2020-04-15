@@ -2,7 +2,7 @@
 path: "/more-improvements-from-feedback-or-android-development"
 date: "2019-04-07"
 title: "More Improvements From Feedback | Android Development"
-image: "./images/18_caption_Kfvwvueh-image.png"
+image: "/images/18_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","opensource","steem"]'
 ---
 

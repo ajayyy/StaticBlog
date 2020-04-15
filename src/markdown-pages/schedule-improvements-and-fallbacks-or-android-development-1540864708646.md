@@ -2,7 +2,7 @@
 path: "/schedule-improvements-and-fallbacks-or-android-development-1540864708646"
 date: "2018-10-30"
 title: "Schedule Improvements and Fallbacks | Android Development"
-image: "./images/29_caption_image.png"
+image: "/images/29_caption_image.png"
 tags: '["utopian-io","development","android","programming","apps"]'
 ---
 

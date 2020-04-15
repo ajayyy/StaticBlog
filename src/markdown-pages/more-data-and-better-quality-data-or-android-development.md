@@ -2,7 +2,7 @@
 path: "/more-data-and-better-quality-data-or-android-development"
 date: "2019-02-19"
 title: "More Data and Better Quality Data | Android Development"
-image: "./images/23_caption_57ZR0uTJ-image.png"
+image: "/images/23_caption_57ZR0uTJ-image.png"
 tags: '["utopian-io","development","programming","android"]'
 ---
 

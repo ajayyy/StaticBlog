@@ -2,7 +2,7 @@
 path: "/the-last-two-months-of-sponsorblock-ui-improvements-and-userbase-growing-pains"
 date: "2019-10-31"
 title: "The last two months of SponsorBlock - UI improvements and userbase growing pains"
-image: "./images/1_caption_fade_out_2.gif"
+image: "/images/1_caption_fade_out_2.gif"
 tags: '["utopian-io","programming","sponsorblock","marlians","development"]'
 ---
 

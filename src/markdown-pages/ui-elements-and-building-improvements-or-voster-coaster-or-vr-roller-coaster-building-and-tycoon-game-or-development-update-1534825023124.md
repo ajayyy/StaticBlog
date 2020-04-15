@@ -2,7 +2,7 @@
 path: "/ui-elements-and-building-improvements-or-voster-coaster-or-vr-roller-coaster-building-and-tycoon-game-or-development-update-1534825023124"
 date: "2018-08-21"
 title: "UI Elements and Building Improvements | Voster Coaster | VR Roller Coaster Building and Tycoon Game | Development Update"
-image: "./images/43_caption_radial%20menu%202.gif"
+image: "/images/43_caption_radial%20menu%202.gif"
 tags: '["utopian-io","development","programming","gaming","vostercoaster"]'
 ---
 

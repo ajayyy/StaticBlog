@@ -2,7 +2,7 @@
 path: "/scouting-data-summarizer-or-server-side-magic"
 date: "2019-04-17"
 title: "Scouting Data Summarizer | Server-Side Magic"
-image: "./images/17_caption_Kfvwvueh-image.png"
+image: "/images/17_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","electron","nodejs"]'
 ---
 

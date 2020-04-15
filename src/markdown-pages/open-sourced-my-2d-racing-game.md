@@ -2,7 +2,7 @@
 path: "/open-sourced-my-2d-racing-game"
 date: "2017-11-19"
 title: "Open Sourced My 2D Racing Game"
-image: "./images/87_caption_2dRacer.gif"
+image: "/images/87_caption_2dRacer.gif"
 tags: '["utopian-io","game","game-dev"]'
 ---
 

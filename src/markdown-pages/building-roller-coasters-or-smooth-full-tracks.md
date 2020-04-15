@@ -2,7 +2,7 @@
 path: "/building-roller-coasters-or-smooth-full-tracks"
 date: "2018-07-16"
 title: "Building Roller Coasters | Smooth Full Tracks | Voster Coaster VR Game"
-image: "./images/57_caption_QmX6ECfwryqgBVLK5U9SNJzWZn2nQ3KV2pN3W2hP6UpnzR"
+image: "/images/57_caption_QmX6ECfwryqgBVLK5U9SNJzWZn2nQ3KV2pN3W2hP6UpnzR"
 tags: '["utopian-io","development","programming","vostercoaster","fundition-rysv7vm2t"]'
 ---
 

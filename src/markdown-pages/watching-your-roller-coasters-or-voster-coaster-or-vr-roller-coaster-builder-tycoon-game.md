@@ -2,7 +2,7 @@
 path: "/watching-your-roller-coasters-or-voster-coaster-or-vr-roller-coaster-builder-tycoon-game"
 date: "2018-07-30"
 title: "Watching Your Roller Coasters | Voster Coaster | VR Roller Coaster Builder Tycoon Game"
-image: "./images/50_caption_QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct"
+image: "/images/50_caption_QmeBMht5zypqDnSw7V2bQZMLLjNcr9rhK7KD3jPHAN6Hct"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 

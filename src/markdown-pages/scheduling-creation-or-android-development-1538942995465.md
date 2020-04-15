@@ -2,7 +2,7 @@
 path: "/scheduling-creation-or-android-development-1538942995465"
 date: "2018-10-07"
 title: "Scheduling Creation | Android Development"
-image: "./images/32_caption_image.png"
+image: "/images/32_caption_image.png"
 tags: '["utopian-io","development","programming","android","frc"]'
 ---
 

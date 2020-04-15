@@ -2,7 +2,7 @@
 path: "/building-roller-coasters-complete"
 date: "2018-07-03"
 title: "Building Roller Coasters | Generating A Curve Of Curved Tracks"
-image: "./images/60_caption_QmYxZ43KUykLKepd9RuVUMF4v4E91USCPetFtJ1LgMPaai"
+image: "/images/60_caption_QmYxZ43KUykLKepd9RuVUMF4v4E91USCPetFtJ1LgMPaai"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 

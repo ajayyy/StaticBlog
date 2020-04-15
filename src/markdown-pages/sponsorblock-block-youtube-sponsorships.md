@@ -2,7 +2,7 @@
 path: "/sponsorblock-block-youtube-sponsorships"
 date: "2019-07-29"
 title: "SponsorBlock - Block YouTube Sponsorships"
-image: "./images/3_caption_QvIzibaj-sponsorEditing.gif"
+image: "/images/3_caption_QvIzibaj-sponsorEditing.gif"
 tags: '["utopian-io","development","programming","stem","palnet","sponsorblock"]'
 ---
 

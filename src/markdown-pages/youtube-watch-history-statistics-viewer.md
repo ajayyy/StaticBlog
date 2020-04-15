@@ -2,7 +2,7 @@
 path: "/youtube-watch-history-statistics-viewer"
 date: "2017-12-23"
 title: "YouTube Watch History Statistics Viewer"
-image: "./images/84_caption_lyg7mlwrmvqaxxnak0md.png"
+image: "/images/84_caption_lyg7mlwrmvqaxxnak0md.png"
 tags: '["utopian-io","youtube-api","youtube-statistics","statistics","year-in-review"]'
 ---
 

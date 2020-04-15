@@ -2,7 +2,7 @@
 path: "/making-roller-coasters-or-real-time-track-edits-or-voster-coaster"
 date: "2018-06-15"
 title: "Real-Time Track Edits | Building Roller Coasters | Voster Coaster"
-image: "./images/63_caption_QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes"
+image: "/images/63_caption_QmeuuCo7wJTEjyNeCryeov4hjzc2uykULPeSsJ6nvVEdes"
 tags: '["utopian-io","development","programming","gamedev","vostercoaster"]'
 ---
 

@@ -2,7 +2,7 @@
 path: "/turn-based-attacker"
 date: "2018-01-04"
 title: "Turn Based Attacker"
-image: "./images/77_caption_hh5rnvgzbdupqmdhjeks.png"
+image: "/images/77_caption_hh5rnvgzbdupqmdhjeks.png"
 tags: '["utopian-io","unity","game","game-dev","unity3d"]'
 ---
 

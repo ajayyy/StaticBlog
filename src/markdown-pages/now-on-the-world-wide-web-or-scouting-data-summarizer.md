@@ -2,7 +2,7 @@
 path: "/now-on-the-world-wide-web-or-scouting-data-summarizer"
 date: "2019-05-05"
 title: "Now On The World Wide Web | Scouting Data Summarizer"
-image: "./images/15_caption_Kfvwvueh-image.png"
+image: "/images/15_caption_Kfvwvueh-image.png"
 tags: '["utopian-io","development","programming","android","opensource"]'
 ---
 

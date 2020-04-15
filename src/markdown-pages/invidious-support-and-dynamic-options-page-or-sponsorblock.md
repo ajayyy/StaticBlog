@@ -2,7 +2,7 @@
 path: "/invidious-support-and-dynamic-options-page-or-sponsorblock"
 date: "2020-01-19"
 title: "Invidious Support and Dynamic Options Page | SponsorBlock"
-image: "./images/0_caption_Jk4CpOE5-image.png"
+image: "/images/0_caption_Jk4CpOE5-image.png"
 tags: '["development","programming","sponsorblock","palnet"]'
 ---
 

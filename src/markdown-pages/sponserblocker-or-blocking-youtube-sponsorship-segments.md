@@ -2,7 +2,7 @@
 path: "/sponserblocker-or-blocking-youtube-sponsorship-segments"
 date: "2019-07-10"
 title: "SponsorBlock | Blocking YouTube Sponsorship Segments"
-image: "./images/9_caption_bFn6a9nb-image.png"
+image: "/images/9_caption_bFn6a9nb-image.png"
 tags: '["utopian-io","development","programming","youtube","sponsorblock"]'
 ---
 
