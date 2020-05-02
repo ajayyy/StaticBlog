@@ -33,7 +33,7 @@ This luckily wasn't difficult at all since Firefox supports Chrome extensions na
 
 The amount of views each sponsor gets (well, the amount of skips) is now recorded. This is nice because it gives users who submit sponsors direct feedback on how they are improving other people's viewing experience.
 
-![image.png](./images/Wp8goTtJ-image.png)
+![image.png](/images/Wp8goTtJ-image.png)
 
 This can be disabled if you don't want this.
 
@@ -53,19 +53,19 @@ You can now use the semicolon button to indicate the start and end of sponsors a
 
 Individual sponsor times can now be deleted before submitting.
 
-![deleting individual times.gif](./images/wOV7y40r-deleting20individual20times.gif)
+![deleting individual times.gif](/images/wOV7y40r-deleting20individual20times.gif)
 
 ### Sponsor time editing
 
 You can now edit the sponsors before submitting. This was a very requested feature.
 
-![sponsorEditing.gif](./images/QvIzibaj-sponsorEditing.gif)
+![sponsorEditing.gif](/images/QvIzibaj-sponsorEditing.gif)
 
 ### New way to access the popup.
 
 It seemed like a lot of people were not realising that there were more settings in the popup menu, so there is now another way to access the popup. Click the info button on the video player to open the popup the page you are watching the video on.
 
-![new popup.gif](./images/M5DpUeQh-new20popup.gif)
+![new popup.gif](/images/M5DpUeQh-new20popup.gif)
 
 ### Lots of other fixes
 

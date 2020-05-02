@@ -10,7 +10,7 @@ tags: '["utopian-io","development","programming","palnet","sponsorblock"]'
 https://github.com/ajayyy/SponsorBlocker
 https://github.com/ajayyy/SponsorBlockServer
 
-![image.png](./images/37GSA0wm-image.png)
+![image.png](/images/37GSA0wm-image.png)
 
 # Client
 
@@ -30,7 +30,7 @@ When you hit the "Sponsorship Starts Now" button, it transforms into "Sponsorshi
 
 - Made the button's nice on the notice and added a notice about the timeout.
 
-![image.png](./images/qEfElyR4-image.png)
+![image.png](/images/qEfElyR4-image.png)
 
 - Made it generate and submit a userID defining this user.
 
@@ -70,7 +70,7 @@ This makes the "Submit Sponsor Times" button only be visible when something can 
 
 - Added button on YouTube player and new icons to support that
 
-![image.png](./images/5khiydEb-image.png)
+![image.png](/images/5khiydEb-image.png)
 
 By being a white icon, it does not stand out when in the player and looks normal.
 
@@ -78,7 +78,7 @@ By being a white icon, it does not stand out when in the player and looks normal
 
 - Made options a hidden section in the popup.
 
-![hidden options.gif](./images/Rt9rjED1-hidden20options.gif)
+![hidden options.gif](/images/Rt9rjED1-hidden20options.gif)
 
 # Server
 
@@ -100,7 +100,7 @@ It now reports correct codes such as error code 429 for a ratelimit.
 
 This should help prevent spammers and trolls.
 
-![image.png](./images/10O2qZxV-image.png)
+![image.png](/images/10O2qZxV-image.png)
 
 #### Pull Requests
 https://github.com/ajayyy/SponsorBlocker/pull/1

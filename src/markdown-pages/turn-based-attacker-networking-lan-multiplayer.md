@@ -15,11 +15,11 @@ This is a turn based strategy game where you must try to kill all the other play
 
 In this release I added the ability to play a networked game. Now you can have other players join your game and can play together, from different computers.
 
-![image.png](./images/shboosva3fsoe9wq30p9.png)
+![image.png](/images/shboosva3fsoe9wq30p9.png)
 
 You can join by specifying their ip address.
 
-![image.png](./images/uccwpjxxjs3imphmfsgo.png)
+![image.png](/images/uccwpjxxjs3imphmfsgo.png)
 
 The game communicates over TCP and sends messages for what button was pressed, or what person became selected. The networking is done manually by sending strings of text signifying a command, and since TCP sometimes groups commands, the game will make sure to separate commands before executing them.
 

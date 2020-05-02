@@ -17,7 +17,7 @@ This is a scouting app developed for FIRST Robotics Team 2708. It is used to sco
 
 Previously, data for this was just recorded with boxes, but this time I decided to make the app record data with the fancy visual page.
 
-![image.png](./images/57ZR0uTJ-image.png)
+![image.png](/images/57ZR0uTJ-image.png)
 
 This allows us to know exactly what happened in the autonomous period. The user selectes the location the robot is, and what action just happened. This then allows us to make path charts of all the places the robot went thoughout the whole match, and allow us to know the success rate of the robot.
 

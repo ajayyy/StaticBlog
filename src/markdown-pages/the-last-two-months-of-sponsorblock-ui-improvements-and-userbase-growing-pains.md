@@ -12,9 +12,9 @@ https://github.com/ajayyy/SponsorBlock
 Since my last update post was in August, this is a recap of everything important that has happened since.
 
 # New notice
-![](./images/fade_out_2.gif)
+![](/images/fade_out_2.gif)
 
-![](./images/reskip.gif)
+![](/images/reskip.gif)
 
 This notice not only looks waaay better than the original, it also:
 
@@ -34,7 +34,7 @@ To counter the issue of people not realizing they are upvoting, downvotes now co
 
 # Preview Unsubmitted Sponsors
 
-![](./images/unknown.png)
+![](/images/unknown.png)
 
 They appear in blue.
 
@@ -48,7 +48,7 @@ There is also now a auto temp-ban system in place. If there are too many low ran
 
 Before, this was annoying for people with different keyboard layouts.
 
-![](./images/setkeybinds.gif)
+![](/images/setkeybinds.gif)
 
 # Userbase growing pains
 

@@ -8,14 +8,14 @@ tags: '["utopian-io","development","programming","gaming","vostercoaster"]'
 
 (Sorry, my computer cannot handle recording while running in VR well)
 
-![radial menu 2.gif](./images/radial%20menu%202.gif)
+![radial menu 2.gif](/images/radial%20menu%202.gif)
 
 #### Repository
 https://github.com/ajayyy/CunctansSquare
 
 # Radial UI
 
-![radial menu 4.gif](./images/radial%20menu%204.gif)
+![radial menu 4.gif](/images/radial%20menu%204.gif)
 
 I created a radial menu,
 
@@ -28,7 +28,7 @@ https://github.com/ajayyy/VosterCoaster/pull/17/files#diff-bbd14ff151f2f7f75a517
 
 # Floating Windows
 
-![floating window.PNG](./images/floating%20window.PNG)
+![floating window.PNG](/images/floating%20window.PNG)
 
 I wasn't able to get a recording of the floating windows, the recording was 1 frame per second.
 

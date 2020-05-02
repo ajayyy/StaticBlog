@@ -9,7 +9,7 @@ tags: '["utopian-io","development","gamedev","programming","fun"]'
 #### Repository
 https://github.com/ajayyy/AtLeastItsNotDeath/
 
-![](./images/1c6ed.gif)
+![](/images/1c6ed.gif)
 This is one of the visual effects thay might be applied, constantly changing colours.
 
 # What is it?
@@ -45,17 +45,17 @@ This makes the movement much nicer to look at.
 
 ##### Random rotation
 
-![](./images/1c731.gif)
+![](/images/1c731.gif)
 
 ##### Screenshake
 
-![](./images/1c70f.gif)
+![](/images/1c70f.gif)
 
 ##### Low lighting effect
 
 It is made using shaders. It is based off vertexes (corners) of each object.
 
-![](./images/1de25.gif)
+![](/images/1de25.gif)
 
 #### Download And Try It
 

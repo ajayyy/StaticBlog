@@ -11,7 +11,7 @@ tags: '["utopian-io","development","programming","youtube","sponsorblock"]'
 [https://github.com/ajayyy/SponsorBlock](https://github.com/ajayyy/SponsorBlock)
 [https://github.com/ajayyy/SponsorBlockServer](https://github.com/ajayyy/SponsorBlockServer)
 
-![image.png](./images/bFn6a9nb-image.png)
+![image.png](/images/bFn6a9nb-image.png)
 
 # SponsorBlock
 
@@ -42,14 +42,14 @@ This project is partially based off of [this experimental extension](https://git
 - Sponsor time submission: Click on the extension and select when a sponsor segment ends, find the time it finishes, and click on the extension again. Hit submit and this will be sent to the server.
 - Ability to get sponsor timings already in the database and automatically skip over them
 
-![sponsor skipped.gif](./images/gMETqVsH-sponsor20skipped.gif)
+![sponsor skipped.gif](/images/gMETqVsH-sponsor20skipped.gif)
 
 - Small ui that appears that allows you to skip back and watch it if it was wrong
 - Warning that appears if you go to another page after selecting timings, but never submitting them. You will be reminded to submit them so that your time is not wasted.
 
-![skip notice.gif](./images/DFcKksGr-skip20notice.gif)
+![skip notice.gif](/images/DFcKksGr-skip20notice.gif)
 
-- Warns you when you are not on YouTube or the content script hasn't loaded yet ![image.png](./images/5xwNANHl-image.png)
+- Warns you when you are not on YouTube or the content script hasn't loaded yet ![image.png](/images/5xwNANHl-image.png)
 - Decimal precision timings
 - Correct menus hide when they should
 

@@ -18,8 +18,8 @@ https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp
 > This is an app to do scouting. Recording data on paper and then putting it in a database is convoluted and wasteful, so we built an app to replace this system. 6 people use the app independently on Android devices and record data about one robot each per game. A server app can then pull data from all the devices to combine it all in one. This act of recording data is called scouting, and is done by someone called a scout. Each set of data is for one match of the game.
 > 
 
-![](./images/image.png)
-![](./images/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
+![](/images/image.png)
+![](/images/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png)
 
 ### New Features
 

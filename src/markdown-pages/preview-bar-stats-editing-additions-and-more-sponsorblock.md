@@ -10,7 +10,7 @@ tags: '["utopian-io","development","programming","stem","pal","sponsorblock","ma
 https://github.com/ajayyy/SponsorBlock
 https://github.com/ajayyy/SponsorBlockServer
 
-![image.png](./images/gBb8T4DG-image.png)
+![image.png](/images/gBb8T4DG-image.png)
 
 # SponsorBlock
 
@@ -32,9 +32,9 @@ You can now see who the top contributors of this extension are and choose a user
 
 https://sponsor.ajay.app/stats/
 
-![image.png](./images/P7jmWDbc-image.png)
+![image.png](/images/P7jmWDbc-image.png)
 
-![](./images/usernames.gif)
+![](/images/usernames.gif)
 
 ##### New notice position
 
@@ -48,7 +48,7 @@ The local submission counter now is better and only counts submissions if the se
 
 You can now white list channels and see their sponsors. This doesn't work on 0 second sponsors to keep them loading as fast as possible, but it does work for later sponsors.
 
-![](./images/whitelisting.gif)
+![](/images/whitelisting.gif)
 
 
 ##### More sponsor updated
@@ -63,17 +63,17 @@ Button padding has been increased.
 
 Added a preview button to go a few seconds before the sponsor and see how it looks.
 
-![](./images/50ogSx3.gif)
+![](/images/50ogSx3.gif)
 
 Added a button to set the current time in an edit.
 
-![](./images/current_time.gif)
+![](/images/current_time.gif)
 
 #### Preview bar
 
 You can now see when the sponsors will happen on the seek bar
 
-![](./images/unknown.png)
+![](/images/unknown.png)
 
 #### Downvoting a sponsor will hide it for you
 

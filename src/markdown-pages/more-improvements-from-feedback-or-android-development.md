@@ -32,7 +32,7 @@ Before, there was no general statistic about what happened to each game object (
 
 Some robots never use parts of their robot, but before the users were required to rate these places, now there is a did not intake button, and this button let's the rating not be filled (and greys it out)
 
-![image.png](./images/defd2UKG-image.png)
+![image.png](/images/defd2UKG-image.png)
 
 # Forced Instructions
 
@@ -46,7 +46,7 @@ The schedule viewer now allows you to view it in the main app, instead of just a
 
 # Option panel on the alert
 
-![image.png](./images/5HqKTJMJ-image.png)
+![image.png](/images/5HqKTJMJ-image.png)
 
 This alert to select a robot is presented at the beginning before scouting. Due to it being an `AlertDialog` in Android, it was very hard to do anything while in this view, but now I added an options menu that can be displayed in this alert. This allows the user to return back to the menu without restarting the app and view the schedule straight from there.
 

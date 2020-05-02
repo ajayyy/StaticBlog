@@ -25,7 +25,7 @@ In the last update, I made it so that there were two pages for scouting, one for
 
 This should prevent many mistakes due to forgetfulness.
 
-![image.png](./images/xHsa0p97-image.png)
+![image.png](/images/xHsa0p97-image.png)
 
 ### Close and far (visible and invisible)
 

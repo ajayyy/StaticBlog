@@ -56,7 +56,7 @@ This is cached on the first app open for each version of the app. A check is put
 
 Above the schedule, it also shows the last update time to make sure the user knows if the schedule might be out of date (as they can't be synced constantly since it is synced over bluetooth only when the server device is nearby).
 
-![image.png](./images/rJc4obkc-image.png)
+![image.png](/images/rJc4obkc-image.png)
 
 # Questions
 

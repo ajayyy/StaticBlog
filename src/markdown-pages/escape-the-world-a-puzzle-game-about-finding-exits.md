@@ -21,8 +21,8 @@ This is made in Java with no extra libraries. The art is made in Inkscape.
 To use this project, just download the git repo, and open it up with the Eclipse IDE.
 
 # Image
-![Image 1](./images/1ce0.png)
-![Image 2](./images/1cdf.png)
+![Image 1](/images/1ce0.png)
+![Image 2](/images/1cdf.png)
 
 # Download
 

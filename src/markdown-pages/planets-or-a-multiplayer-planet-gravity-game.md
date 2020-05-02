@@ -14,7 +14,7 @@ This is multiplayer planet-based game. There are planets, circles with a gravita
 
 At the moment, there is no game, however you can move around and shoot other players. Theoretically, it can support as many players as you need (or hit the integer cap of 2.14 billion).
 
-![planets demo 1.gif](./images/ZZHBS4fX-planets20demo201.gif)
+![planets demo 1.gif](/images/ZZHBS4fX-planets20demo201.gif)
 
 # Instructions to run
 

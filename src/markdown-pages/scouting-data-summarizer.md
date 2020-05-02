@@ -28,7 +28,7 @@ This is build in HTML, CSS, and JavaScript using Electron.
 
 # Features
 
-![image.png](./images/j0fqEaig-image.png)
+![image.png](/images/j0fqEaig-image.png)
 
 The program shows the average successes and misses of each action that can happen in the game along with the maximum they have completed in all of their matches. 
 
@@ -59,7 +59,7 @@ The program does these summaries while still being able to work with a future da
 
 In the sandstorm period, robots usually only do one thing. So, it is possible to condense 27 columns in a spreadsheet to just one line of text.
 
-![image.png](./images/3037V3zy-image.png)
+![image.png](/images/3037V3zy-image.png)
 
 This is a vast improvement in amount of time it takes to read.
 

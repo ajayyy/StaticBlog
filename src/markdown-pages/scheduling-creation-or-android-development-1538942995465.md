@@ -109,7 +109,7 @@ This is used to make sure the bluetooth clients this app connects to are up to d
 
 This is a very important feature. If someone needs to leave and do something else, you can type what match they are leaving or starting at to make that user only matter during certain matches.
 
-![](./images/image.png)
+![](/images/image.png)
 (The names in the image above are customisable, I put them as numbers for testing purposes)
 
 To do this, a history of every time a user was selected and deselected is required to be kept.
@@ -127,7 +127,7 @@ This was required to make sure that when you returned, it looks exactly like whe
 * Made time off be changed based on match number
     * You can change the time off starting at match 5 for example, and after that point scouts will get 3 matches off instead of 2.
 
-  ![](./images/image.png)
+  ![](/images/image.png)
 
 * Renamed mislabeled variables (Changed TextView to EditText)
 

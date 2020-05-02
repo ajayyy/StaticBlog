@@ -6,7 +6,7 @@ image: "/images/46_caption_QmSB5GiFdy44a9aHHkBMgBmJkmndYTFywdq8pQx8ezYBDu"
 tags: '["utopian-io","development","gamdev","gaming","programming"]'
 ---
 
-![ld41_final_quality.gif](./images/QmSB5GiFdy44a9aHHkBMgBmJkmndYTFywdq8pQx8ezYBDu)
+![ld41_final_quality.gif](/images/QmSB5GiFdy44a9aHHkBMgBmJkmndYTFywdq8pQx8ezYBDu)
 
 #### Repository
 https://github.com/ajayyy/CunctansSquare

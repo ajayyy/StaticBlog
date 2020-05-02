@@ -22,9 +22,9 @@ Also, if you do try it out, please report if it worked well for you in the comme
 
 # Screenshots
 
-![screenshot1.png](./images/lyg7mlwrmvqaxxnak0md.png)
+![screenshot1.png](/images/lyg7mlwrmvqaxxnak0md.png)
 
-![screenshot2.png](./images/tcto9mxfvflfa0vl66ai.png)
+![screenshot2.png](/images/tcto9mxfvflfa0vl66ai.png)
 
 
 # Development

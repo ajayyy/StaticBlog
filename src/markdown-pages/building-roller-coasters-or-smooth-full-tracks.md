@@ -6,17 +6,17 @@ image: "/images/57_caption_QmX6ECfwryqgBVLK5U9SNJzWZn2nQ3KV2pN3W2hP6UpnzR"
 tags: '["utopian-io","development","programming","vostercoaster","fundition-rysv7vm2t"]'
 ---
 
-![Added Smooth Tracks.gif](./images/QmX6ECfwryqgBVLK5U9SNJzWZn2nQ3KV2pN3W2hP6UpnzR)
+![Added Smooth Tracks.gif](/images/QmX6ECfwryqgBVLK5U9SNJzWZn2nQ3KV2pN3W2hP6UpnzR)
 
 ### In VR
 
 Sorry for the shakiness, that's just how shaky the human head is, I should probably try stabilizing it next time.
 
-![smooth tracks vr.gif](./images/QmbJbRDG4gkNvUvY9LzbajBXeYUrqei5hxN9u2z3mFAAF1)
+![smooth tracks vr.gif](/images/QmbJbRDG4gkNvUvY9LzbajBXeYUrqei5hxN9u2z3mFAAF1)
 
 ### What it looked like before
 
-![image.gif](./images/QmYXqYkTuDU6w3YV1vp2HD3QNHPWognJXxyKUBSGZaU43S)
+![image.gif](/images/QmYXqYkTuDU6w3YV1vp2HD3QNHPWognJXxyKUBSGZaU43S)
 
 # Repository
 https://github.com/ajayyy/VosterCoasterVR
@@ -61,7 +61,7 @@ This function calculates the length of each segment, then calculates the x and y
 
 #### How the new curve calculations work
 
-![thing 2.png](./images/QmZL7tZWNgZtoNw5Di8PR1DhrAXFkjc1ryx73NVBsCB1aP)
+![thing 2.png](/images/QmZL7tZWNgZtoNw5Di8PR1DhrAXFkjc1ryx73NVBsCB1aP)
 
 In this image, the line on the right represents the start angles (linear formulas), and the left line represents the target. The top red points on each line represent the positions (start and target). A line is created from the start point at the angle ```(180 - targetAngle) / 2``` (represented by angle A in the diagram). Using this line, the collision point between this line and the target line can be found (represented by the lower red dot on the target line in the diagram). This point and the start point are now two positions on the circle.
 
@@ -178,14 +178,14 @@ for (int i = 0; i < rails.Length; i++) {
 This code cuts the track off if it has passed the percentage needed to draw, and will only draw part of it if necessary.
 
 This smooths it out a bit, but the way the track is drawn, there are three sections.
-![image.png](./images/QmTB2MKMxxKxJ3t6Uz6BTfLmGAzSMwCrTY6a9KF6C5uX13)
-![image.png](./images/Qmbe95XSn8MB4249gciu5yxjTteNuDHMnLhEBmmQfPojVj)
+![image.png](/images/QmTB2MKMxxKxJ3t6Uz6BTfLmGAzSMwCrTY6a9KF6C5uX13)
+![image.png](/images/Qmbe95XSn8MB4249gciu5yxjTteNuDHMnLhEBmmQfPojVj)
 
 Between each of these, these partial tracks need to be merged into one. To do this, as seen in the above code snippet, a variable called ```secondCurveStart``` is used. This variable specifies where a second curve inside of the track can start. This makes it so that a track can start off curving in one direction, and finish off curving in another direction.
 
 This same technique is used when combining two different track segments into one.
 
-![image.png](./images/QmVp6L66wwCt2ggscN9Bsiq49nwhNpj6AXSx4BKzdCznQD)
+![image.png](/images/QmVp6L66wwCt2ggscN9Bsiq49nwhNpj6AXSx4BKzdCznQD)
 
 As you can see, these merged areas are unnoticeable, which is exactly what is required to create a smooth looking track.
 
@@ -244,7 +244,7 @@ if(totalTracksNeeded() == 0 && startTrack.GetComponent<TrackPiece>().modified) {
 
 Here is a weird bug I found along the way.
 
-![image.png](./images/QmRgrp54RZKYyNp2E2LKPCDPe6fq3xDxbaknACBrcs35g7)
+![image.png](/images/QmRgrp54RZKYyNp2E2LKPCDPe6fq3xDxbaknACBrcs35g7)
 
 
 # Pull Request

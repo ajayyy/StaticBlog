@@ -10,7 +10,7 @@ tags: '["utopian-io","development","programming","android","bluetooth"]'
 https://github.com/LakeEffectRobotics/LakeEffectScoutingApp
 https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp
 # Server
-![](./images/image.png)
+![](/images/image.png)
 (Lists all devices and the last time they were pulled at)
 
 - Added ability to undo recent actions

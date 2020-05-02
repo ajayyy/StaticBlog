@@ -11,7 +11,7 @@ https://github.com/ajayyy/VosterCoasterVR
 
 # Automatic Curve Creation
 
-![voster coaster automatically editing tracks.gif](./images/QmYxZ43KUykLKepd9RuVUMF4v4E91USCPetFtJ1LgMPaai)
+![voster coaster automatically editing tracks.gif](/images/QmYxZ43KUykLKepd9RuVUMF4v4E91USCPetFtJ1LgMPaai)
 
 I made it so that you can automatically create curves with just moving your controller around the 3D environment. This uses the angle and position relative to the last placed track to form either a curve or a straight line.
 
@@ -25,7 +25,7 @@ I also reformatted some classes. Instead of having a specific class called AddIn
 
 To build a roller coaster, you point your controller in the direction you want the next segment of the roller coaster to point, and move the controller away from the last placed track. A track new track segment will be made between the last track segment and your controller position, ending off with the angle you are pointing at, turning if necessary.
 
-![image.png](./images/Qmf4FvA1bN1av1qP5ftP3Yu1SHZ9hTYVhZmjVFBwjKsfP6)
+![image.png](/images/Qmf4FvA1bN1av1qP5ftP3Yu1SHZ9hTYVhZmjVFBwjKsfP6)
 
 # How this is implemented
 
@@ -57,11 +57,11 @@ float distanceFromTarget = Mathf.Sqrt(Mathf.Pow(collisionX - rightController.tra
     + Mathf.Pow(collisionY - rightController.transform.position.z, 2));
 ```
 
-![image.png](./images/QmYVyFcnUGQwcjbBfxkoAe5XrKMHQj1CrjvcdBHb8DERNN)
+![image.png](/images/QmYVyFcnUGQwcjbBfxkoAe5XrKMHQj1CrjvcdBHb8DERNN)
 
 A curve is then added in the middle to change the angles.
 
-![image.png](./images/QmRwvLsrJZBidogmqMwvyPJ1FcLJKx6QNy16n38SNRRkb4)
+![image.png](/images/QmRwvLsrJZBidogmqMwvyPJ1FcLJKx6QNy16n38SNRRkb4)
 
 Lines of track straight to that collision point from the target and the start are then created, however when getting close to the middle, it creates a curve to smooth out the transition.
 
@@ -137,17 +137,17 @@ This creates a straight line until there have been more than the start tracks sp
 
 I started out by drawing out all of the lines I was dealing with to attempt to make a curve that fits the required parameters.
 
-![image.png](./images/QmZTvsFPN9eMBR1dFwjoSkWMR5PLtDeg5w1mHxqdBERtT2)
+![image.png](/images/QmZTvsFPN9eMBR1dFwjoSkWMR5PLtDeg5w1mHxqdBERtT2)
 
 This helped me visualize all of the lines needed to be created to connect these two angles and where a curve could be created to create a seamless curve.
 
 I then tried rearranging equations to get the radius of a curve by finding two points on the curve.
-![desmos.gif](./images/QmYVzu3Y9eWh8qSQr2Jb9kFdWEnvS7UxapKaycZSTTNHaL)
+![desmos.gif](/images/QmYVzu3Y9eWh8qSQr2Jb9kFdWEnvS7UxapKaycZSTTNHaL)
 (calculations can be found [here](https://www.desmos.com/calculator/qqu6so5sfv))
 
 I tried creating [another equation](https://www.desmos.com/calculator/wfjan8fdby) to calculate the radius required to create a curve that touches two collision points, but it did not actually work in the most situations, because in most situations, one continuous curve from the start to the target is not possible, and instead there need to be a few straight tracks, then a curve, then a few more straight tracks.
 
-![image.png](./images/QmQfg3bFAmDN5Msx6a8HiJT3hxz2AqguSsGfrBnaaTFEgG)
+![image.png](/images/QmQfg3bFAmDN5Msx6a8HiJT3hxz2AqguSsGfrBnaaTFEgG)
 (Approximation of what this would look like)
 
 However this did not actually work practically. I ended up figuring out a much simpler solution (as outlined above).

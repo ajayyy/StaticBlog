@@ -14,7 +14,7 @@ https://github.com/ajayyy/SponsorBlockServer
 
 A very important feature to make this crowd-sourced system work and prevent bad actors is to implement voting.
 
-![voting.gif](./images/pfdj2YXf-voting.gif)
+![voting.gif](/images/pfdj2YXf-voting.gif)
 
 ### "Similar Sponsors"
 
@@ -41,7 +41,7 @@ These sponsors then are compared for votes, and only the best one is sent to the
 
 In a system like that, one sponsor would get a few votes, and then the rest of the sponsors would never appear again, and could never get votes. I decided on using a more fancy algorithm that used a weighted random distribution based on a formula.
 
-![image.png](./images/iRZkhc5X-image.png)
+![image.png](/images/iRZkhc5X-image.png)
 
 This formula makes small amount of votes (under 10), matter a lot, and makes the really large votes slowly not matter as much. This makes a newly submitted sponsor time always possible to be sent out to users to get votes.
 

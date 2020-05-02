@@ -35,11 +35,11 @@ You can now enable invidious support in the options by clicking the toggle and a
 
 # Options Page
 
-![image.png](./images/Jk4CpOE5-image.png)
+![image.png](/images/Jk4CpOE5-image.png)
 
 The way options used to be handled was terrible.
 
-![image.png](./images/vxlmT38X-image.png)
+![image.png](/images/vxlmT38X-image.png)
 
 There were just a bunch of buttons in the popup that changed their text when you toggled them.
 

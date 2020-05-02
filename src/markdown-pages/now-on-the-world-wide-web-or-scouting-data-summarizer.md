@@ -13,13 +13,13 @@ https://github.com/ajayyy/LakeEffectScoutingSummary
 > This is a reader for the scouting app developed for FIRST Robotics Team 2708. It is used to scout other robots at the competition. The data is sent from 6 client apps to the server over bluetooth throughout the course of the events. The server must manage and put everything together. Scouting is necessary to be able to change your team's strategy and know what teams to pick to join your alliance. This reader converts the complicated database information into something easily understandable.
  >### About this year's game
 > In this years game, teams must score "cargo" into holes in rockets. If the cargo is put in without a hatch panel, then it will fall out. The hatch panels must be fastened on to the rockets and cargo ship to prevent the cargo from falling out.
-> ![image.png](./images/Kfvwvueh-image.png)
+> ![image.png](/images/Kfvwvueh-image.png)
 
 # Big Changes
 
 The reader now works on the web, not just electron. This means I can access the data from any device, even my phone. This makes it much easier to use this data when talking to other robotics teams.
 
-![image.png](./images/e2i1Kstw-image.png)
+![image.png](/images/e2i1Kstw-image.png)
 
 - Reorganised files to make main.js less cluttered.
 - Added hidden extra info available on click. Helps with LakeEffectRobotics/LakeEffectScoutingApp#281
@@ -38,7 +38,7 @@ It simply uses the `cursor: pointer;` property.
 
 This is the custom summery viewer:
 
-![custom info.gif](./images/qwJm5gJs-custom20info.gif)
+![custom info.gif](/images/qwJm5gJs-custom20info.gif)
 
 This allows you to see all the raw data for this robot as if you were looking at the spreadsheet in an even easier way. The items close and open when clicking, and you can even search through the data names easily.
 
@@ -46,20 +46,20 @@ This allows you to see all the raw data for this robot as if you were looking at
 
 This allows you to see when they peaked. If they peaked in a later match, it's a good sign.
 
-![image.png](./images/vkH7hJCl-image.png)
+![image.png](/images/vkH7hJCl-image.png)
 
 - Added ability to get straight to the raw data when clicking on the summarized data.
   - The correct raw data is pulled up and the window automatically scrolls down to the custom data section. 
 
 This is a very cool feature. This let's you get to the correct raw data very easily.
 
-![custom info skip.gif](./images/B2yQ9vrQ-custom20info20skip.gif)
+![custom info skip.gif](/images/B2yQ9vrQ-custom20info20skip.gif)
 
 - Added ability to get what position a robot is in for averages of statistics.
 
 This is very useful. If a robot can do 5 cycles of hatch for example, it's useful to see how good they are versus the competition. Now the program finds what position they are in and writes "Top X".
 
-![image.png](./images/IBPXIxIS-image.png)
+![image.png](/images/IBPXIxIS-image.png)
 
 This is done using the `generateStats` function.
 
@@ -230,13 +230,13 @@ function upload(req, res, fileType, folder) {
 }
 ```
 
-![image.png](./images/n2nEbzWb-image.png)
+![image.png](/images/n2nEbzWb-image.png)
 
 - Added a multi view page
 
 This page features 6 versions of the website. Since this competition has matches with 3 robots against another 3 robots, this allows strategic planning to happen quickly.
 
-![image.png](./images/uc6Zz0XD-image.png)
+![image.png](/images/uc6Zz0XD-image.png)
 
 - Made the desktop app be able to pull periodically from the server
 
