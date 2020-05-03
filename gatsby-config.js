@@ -20,12 +20,6 @@ module.exports = {
         },
         "gatsby-plugin-sass",
         {
-            resolve: "gatsby-plugin-purgecss",
-            options: {
-                printRejected: true,
-            },
-        },
-        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 path: `${__dirname}/src/markdown-pages`,

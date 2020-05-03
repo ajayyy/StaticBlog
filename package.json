@@ -8,7 +8,6 @@
     "@fortawesome/fontawesome-free": "^5.12.0",
     "gatsby": "^2.18.12",
     "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sass": "^2.1.26",
     "gatsby-remark-prismjs": "^3.3.33",

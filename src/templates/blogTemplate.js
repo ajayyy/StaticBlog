@@ -3,6 +3,9 @@ import { graphql } from "gatsby"
 
 import Header from "../components/header";
 
+import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+
 import "./blog.scss";
 
 export default function Template({
