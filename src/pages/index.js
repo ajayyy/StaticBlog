@@ -11,6 +11,12 @@ const IndexPage = () => (
             Latest Blog Posts
         </h1>
 
+        <div style={{textAlign: "center", lineHeight: "1"}}>
+            <a href="/rss.xml" title="RSS feed">
+                <img src="/rss.webp" height="15px"/>
+            </a>
+        </div>
+
         <PostList/>
     </Header>
 );
