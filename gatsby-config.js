@@ -4,6 +4,7 @@ module.exports = {
         description:
             "You can find projects I've worked on and links to contact me.",
         author: "Ajay Ramachandran",
+        siteUrl: "https://blog.ajay.app"
     },
     plugins: [
         "gatsby-plugin-react-helmet",
@@ -63,6 +64,7 @@ module.exports = {
                 },
                 ],
             }
-        }
+        },
+        "gatsby-plugin-feed"
     ],
 };
