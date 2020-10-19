@@ -11,6 +11,12 @@ const IndexPage = () => (
             SponsorBlock News
         </h1>
 
+        <div style={{textAlign: "center", lineHeight: "1"}}>
+            <a href="/rss.xml" title="RSS feed">
+                <img src="/rss.webp" height="15px"/>
+            </a>
+        </div>
+
         <PostList filter={(edge) => JSON.parse(edge.node.frontmatter.tags).includes("sponsorblock")}/>
     </Header>
 );
