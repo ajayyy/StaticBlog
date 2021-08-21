@@ -5,6 +5,12 @@
     text-align: left;
 }
 
+@media screen and (orientation:portrait) {
+    .blog-post-content {
+        max-width: 100%;
+    }
+}
+
 .blog-post-content img {
     max-width: 100%;
 }
