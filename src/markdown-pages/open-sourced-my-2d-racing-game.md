@@ -12,7 +12,7 @@ I have decided to open source it and wanted to announce it here.
 
 ## Developement
 
-This game is written in C# with Unity. To use use the project, you must [Download Unity](https://unity3d.com/get-unity/download), clone the [repository](https://github.com/ajayyy/2DRacing) and open the project in Unity.
+This game is written in C# with Unity. To use the project, you must [Download Unity](https://unity3d.com/get-unity/download), clone the [repository](https://github.com/ajayyy/2DRacing) and open the project in Unity.
 
 ## Gameplay
 ![gameplay.png](/images/2dRacer.gif)
