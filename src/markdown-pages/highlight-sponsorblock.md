@@ -16,12 +16,10 @@ Many people were using the intermission category for this, which was wrong, so h
 
 ## Uses (In order of priority)
 
-- Skipping to the point of the video
-- Skipping to the part of the video referred to by the title
-- Skipping to the part of the video referred to by the thumbnail
-- Skipping to the most important part of the video
-- Skipping past the boring parts
-- Skipping to the part of the video referenced from a preview/teaser at the start of the video
+1. Skipping to the point/most important part of the video
+1. Skipping to the part of the video referred to by the title
+1. Skipping to the part of the video referred to by the thumbnail
+1. Skipping to the part of the video referenced from a preview/teaser at the start of the video
 
 # Mini fading notice
 
