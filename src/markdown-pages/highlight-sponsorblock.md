@@ -42,3 +42,5 @@ With this abstraction, it would be possible for these custom categories to also 
 ## Release
 
 [3.0](https://github.com/ajayyy/SponsorBlock/releases/tag/3.0)
+
+[Support my work on SponsorBlock](https://sponsor.ajay.app/donate)
