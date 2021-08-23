@@ -8,7 +8,7 @@ tags: '["development","programming","sponsorblock"]'
 
 ![SpaceX Launch](/images/spacex-highlight.png)
 
-This new category allows you to get to the point of the video, solving problems such as [the Wadsworth constant](https://old.reddit.com/r/pics/comments/kxfxy/and_so_ends_20_years_of_frustration/c2o1cyy/?context=3). The extension will either ask if you want to skip to the "highlight", or auto skip to it right away depending on your preference.
+This new category in [the SponsorBlock extension](https://sponsor.ajay.app) allows you to get to the point of the video, solving problems such as [the Wadsworth constant](https://old.reddit.com/r/pics/comments/kxfxy/and_so_ends_20_years_of_frustration/c2o1cyy/?context=3). The extension will either ask if you want to skip to the "highlight", or auto skip to it right away depending on your preference.
 
 You can use it to [watch rocket launches](https://www.youtube.com/watch?v=sSiuW1HcGjA) or even skip [right to the explosion](https://www.youtube.com/watch?v=BHiWygziyso) in a non rocketry video.
 
