@@ -10,13 +10,13 @@ tags: '["development","programming","sponsorblock"]'
 
 The new mute segments allow you to mute a section of a video instead of skipping it. This is useful when there is something that needs be skipped in the audio, such as an audible sponsor message, while the video on-screen is important. This will also be able to be used to remove those annoying bell sounds that are sometimes added for reminding people to subscribe.
 
+![Unmute Notice](/images/unmute-notice.png)
+
 This new action can be used with Sponsor, Unpaid/Self Promotion and Interaction Reminder.
 
 One other cool thing I have noticed with this is that segments can get even precise. With skipping, the browser sometimes acts up when it skips a very short amount of time, making it a better experience just to not skip it at all. With muting segments, it feels a lot smoother and you don't really notice the muting happen.
 
 As with normal segments, you have the option to unmute at any time to hear what is actually happening.
-
-![Unmute Notice](/images/mute-sponsorblock.png)
 
 ## Release
 
