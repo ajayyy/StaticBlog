@@ -14,7 +14,7 @@ The new mute segments allow you to mute a section of a video instead of skipping
 
 This new action can be used with Sponsor, Unpaid/Self Promotion and Interaction Reminder.
 
-One other cool thing I have noticed with this is that segments can get even precise. With skipping, the browser sometimes acts up when it skips a very short amount of time, making it a better experience just to not skip it at all. With muting segments, it feels a lot smoother and you don't really notice the muting happen.
+One other cool thing I have noticed with this is that mute segments can get even more precise than skips. With skipping, the browser sometimes acts up when it skips a very short amount of time, making it a better experience just to not skip it at all. With muting segments, it feels a lot smoother and you don't really notice the muting happen.
 
 As with normal segments, you have the option to unmute at any time to hear what is actually happening.
 
