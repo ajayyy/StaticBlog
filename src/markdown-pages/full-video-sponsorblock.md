@@ -1,6 +1,6 @@
 ---
 path: "/full-video-sponsorblock"
-date: "2021-01-06"
+date: "2022-01-06"
 title: "Full Video Labels - SponsorBlock"
 image: "/images/full-video-sponsorblock.png"
 tags: '["development","programming","sponsorblock"]'
