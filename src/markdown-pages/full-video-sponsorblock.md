@@ -1,0 +1,25 @@
+---
+path: "/full-video-sponsorblock"
+date: "2021-01-06"
+title: "Full Video Labels - SponsorBlock"
+image: "/images/full-video-sponsorblock.png"
+tags: '["development","programming","sponsorblock"]'
+---
+
+![Full video sponsor segment](/images/full-video-sponsorblock.png)
+
+Full video reports allow you to know when an entire video is sponsored, or self-promotion. This should be added to videos that have sponsors so tightly integrated that they cannot be removed with skipping or muting.
+
+![Full video selfpromo segment](/images/full-video-selfpromo.png)
+
+Even when a video is labeled like this, the parts that can be skipped still should be skipped.
+
+The harder part with this is when an uploader don't make proper disclosures of their sponsorships. Hopefully, this feature will allow these badly disclosed sponsorships to be disclosed. Someone can do to the research into whether a video is actually sponsored or not, and be able to use this feature to let others know about it. 
+
+If you find anything you are unsure of, feel free to ask about it on [Discord](https://discord.gg/SponsorBlock) or [Matrix](https://matrix.to/#/#sponsor:ajay.app?via=ajay.app&via=matrix.org&via=mozilla.org) and hopefully we can collectively combat these badly disclosed videos.
+
+## Release
+
+[4.0](https://github.com/ajayyy/SponsorBlock/releases/tag/4.0)
+
+[Support my work on SponsorBlock](https://sponsor.ajay.app/donate)
