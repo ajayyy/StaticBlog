@@ -10,13 +10,13 @@ tags: '["development","programming","sponsorblock"]'
 
 Full video reports allow you to know when an entire video is sponsored, exclusive access self-promotion. This should be added to videos that have sponsors so tightly integrated that they cannot be removed with skipping or muting.
 
-![Full video selfpromo segment](/images/full-video-selfpromo.png)
-
 Even when a video is labeled like this, the parts that can be skipped still should be skipped.
 
-![Full video exclusive access segment](/images/full-video-exclusive-access.png)
+![Full video selfpromo segment](/images/full-video-selfpromo.png)
 
 Exclusive access is a new category for labeling videos where the creator showcases a product, service or location that they've received free or subsidised access. This is in contrast to sponsor-labeled videos which must have recieved money.
+
+![Full video exclusive access segment](/images/full-video-exclusive-access.png)
 
 The harder part with these types of labels is when an uploader don't make proper disclosures of their sponsorships. Hopefully, this feature will allow these badly disclosed sponsorships to be properly disclosed. Someone can do to the research into whether a video is actually sponsored or not, and be able to use this feature to let others know about it. 
 
