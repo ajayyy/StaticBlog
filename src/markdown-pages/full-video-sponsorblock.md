@@ -18,6 +18,8 @@ The harder part with this is when an uploader don't make proper disclosures of t
 
 If you find anything you are unsure of, feel free to ask about it on [Discord](https://discord.gg/SponsorBlock) or [Matrix](https://matrix.to/#/#sponsor:ajay.app?via=ajay.app&via=matrix.org&via=mozilla.org) and hopefully we can collectively combat these badly disclosed videos.
 
+For more information about specifics, check out the wiki: https://wiki.sponsor.ajay.app/w/Full_Video_Labels
+
 ## Release
 
 [4.0](https://github.com/ajayyy/SponsorBlock/releases/tag/4.0)
