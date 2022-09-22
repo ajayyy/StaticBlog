@@ -14,7 +14,7 @@ These custom sections can be made inside eachother to make more-and-more specifi
 
 Here is a demo:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H_mP7bpbA_c?modestbranding=1&rel=0" title="Demo Video"
+<iframe align="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/H_mP7bpbA_c?modestbranding=1&rel=0" title="Demo Video"
     frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
     allowfullscreen>
 </iframe>
