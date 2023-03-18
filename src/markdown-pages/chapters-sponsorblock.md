@@ -1,14 +1,14 @@
 ---
 path: "/chapters-sponsorblock"
 date: "2022-09-21"
-title: "🟨 Custom Chapters - SponsorBlock"
+title: "Custom Chapters - SponsorBlock"
 image: "/images/chapters.png"
 tags: '["development","programming","sponsorblock"]'
 ---
 
 ![Chapters](/images/chapters.png)
 
-Custom chapters is a **paid** feature for crowd-sourcing specific sections inside of videos. Some people get free access, and this can be found by checking the settings page.
+Custom chapters is a feature for crowd-sourcing specific sections inside of videos.
 
 These custom sections can be made inside eachother to make more-and-more specific sections. This also allows for better collaboration, as you can easily add to someone else's chapter submissions by making more precise chapters inside of theirs.
 
