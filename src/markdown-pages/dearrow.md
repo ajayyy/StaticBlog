@@ -2,7 +2,7 @@
 path: "/dearrow"
 date: "2023-06-10"
 title: "DeArrow - Better Title and Thumbnails"
-image: "/images/chapters.png"
+image: "https://dearrow.ajay.app/screenshot1.png"
 tags: '["development","programming","sponsorblock"]'
 ---
 
