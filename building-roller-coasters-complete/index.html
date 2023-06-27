@@ -1,0 +1,119 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.25.7"/><meta name="theme-color" content="#fff"/><style data-href="/styles.98c208488f7e0918f3b4.css" data-identity="gatsby-global-css">body{margin:8px}.profilepic{border-radius:50%;height:80px;overflow:hidden}#title,.profilepic{vertical-align:middle}#title{background-color:#636363;color:#212121;font-family:sans-serif;font-size:50px;padding:20px;text-align:center;transition:font-size 1s}#title,.title-text{text-decoration:none}.title-text:hover{color:#212121}body{background-color:#333;color:#c4c4c4;font-family:sans-serif;font-size:1.1rem;line-height:1.5}code{font-size:12pt!important}a{color:inherit;transition:color .1s linear}a:hover{color:#fff}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#ccc;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}pre[class*=language-].line-numbers{counter-reset:linenumber;padding-left:3.8em;position:relative}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{border-right:1px solid #999;font-size:100%;left:-3.8em;letter-spacing:-1px;pointer-events:none;position:absolute;top:0;-webkit-user-select:none;user-select:none;width:3em}.line-numbers-rows>span{counter-increment:linenumber;display:block}.line-numbers-rows>span:before{color:#999;content:counter(linenumber);display:block;padding-right:.8em;text-align:right}.blog-post-content{margin:auto;max-width:60%;text-align:left}@media screen and (orientation:portrait){.blog-post-content{max-width:100%}}.blog-post-content img{max-width:100%}.blog-post-container{text-align:center}.gatsby-highlight pre[class*=language-].line-numbers{overflow:initial;padding:0 0 0 2.8em}</style><link rel="icon" href="/favicon-32x32.png?v=a60a5f8134c1a0a70ea7cd9216912b32" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="alternate" type="application/rss+xml" title="Ajay Ramachandran&#x27;s Blog" href="/rss.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="title"><img src="/ajay_profile.jpg" class="profilepic"/> <a class="title-text" href="/">Ajay Ramachandran</a></div><main><div class="blog-post-container"><div class="blog-post"><h1>Building Roller Coasters | Generating A Curve Of Curved Tracks</h1><h2>July 03, 2018</h2><div class="blog-post-content"><h1>Repository</h1>
+<p><a href="https://github.com/ajayyy/VosterCoasterVR">https://github.com/ajayyy/VosterCoasterVR</a></p>
+<h1>Automatic Curve Creation</h1>
+<p><img src="/images/QmYxZ43KUykLKepd9RuVUMF4v4E91USCPetFtJ1LgMPaai" alt="voster coaster automatically editing tracks.gif"></p>
+<p>I made it so that you can automatically create curves with just moving your controller around the 3D environment. This uses the angle and position relative to the last placed track to form either a curve or a straight line.</p>
+<p>This took on many different variations to eventually get working, so I am going to show how it currently works, as well as a summary of a few of the other ways I tried getting it working (as this post would be way too long if I showed them all.</p>
+<h1>Other changes</h1>
+<p>I also reformatted some classes. Instead of having a specific class called AddIncline for managing track adjustments, there is now the TrackPiece class for managing all items related to each track piece, and each track piece has its own instance of the class. The RollerCoaster class then uses these classes to manage the individual track pieces.</p>
+<h1>How you build a roller coaster in this game</h1>
+<p>To build a roller coaster, you point your controller in the direction you want the next segment of the roller coaster to point, and move the controller away from the last placed track. A track new track segment will be made between the last track segment and your controller position, ending off with the angle you are pointing at, turning if necessary.</p>
+<p><img src="/images/Qmf4FvA1bN1av1qP5ftP3Yu1SHZ9hTYVhZmjVFBwjKsfP6" alt="image.png"></p>
+<h1>How this is implemented</h1>
+<p>In the final iteration, I tried to make the system as simple as possible to avoid issues.</p>
+<p>It first creates two linear equations. One for the target and one for the start. Then, finds the point of intersection</p>
+<div class="gatsby-highlight" data-language="c#"><pre style="counter-reset: linenumber NaN" class="language-c# line-numbers"><code class="language-c#">//calculate the slope for the target angle
+float targetSlope = Mathf.Tan((90 - targetAngle.y) * Mathf.Deg2Rad);
+//calculate slope for the start
+float startSlope = Mathf.Tan((90 - getCurrentAngle(startTrack).y) * Mathf.Deg2Rad);
+
+//the b value for the target angle (b = y - mx)
+float targetB = rightController.transform.position.z - targetSlope * rightController.transform.position.x;
+//the b value for the start angle (b = y - mx)
+float startB = startTrack.transform.position.z - startSlope * startTrack.transform.position.x;
+
+//calculate the collision point
+float collisionX = (startB - targetB) / (targetSlope - startSlope);
+float collisionY = targetSlope * collisionX + targetB;
+
+//get distance from the start
+float distanceFromStart = Mathf.Sqrt(Mathf.Pow(collisionX - startTrack.transform.position.x, 2) 
+    + Mathf.Pow(collisionY - startTrack.transform.position.z, 2));
+
+//get distance from target
+float distanceFromTarget = Mathf.Sqrt(Mathf.Pow(collisionX - rightController.transform.position.x, 2) 
+    + Mathf.Pow(collisionY - rightController.transform.position.z, 2));</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p><img src="/images/QmYVyFcnUGQwcjbBfxkoAe5XrKMHQj1CrjvcdBHb8DERNN" alt="image.png"></p>
+<p>A curve is then added in the middle to change the angles.</p>
+<p><img src="/images/QmRwvLsrJZBidogmqMwvyPJ1FcLJKx6QNy16n38SNRRkb4" alt="image.png"></p>
+<p>Lines of track straight to that collision point from the target and the start are then created, however when getting close to the middle, it creates a curve to smooth out the transition.</p>
+<div class="gatsby-highlight" data-language="c#"><pre style="counter-reset: linenumber NaN" class="language-c# line-numbers"><code class="language-c#">//the amount of tracks need coming straight off the start track
+int startTracksNeeded = (int) Mathf.Abs(distanceFromStart / trackBoneSize / 9f);
+int targetTracksNeeded = (int) Mathf.Abs(distanceFromTarget / trackBoneSize / 9f);
+int curveTracksNeeded = Mathf.Min(startTracksNeeded, targetTracksNeeded);
+
+startTracksNeeded -= curveTracksNeeded;
+targetTracksNeeded -= curveTracksNeeded;
+
+int totalTracksNeeded = startTracksNeeded + curveTracksNeeded + targetTracksNeeded;
+
+int startTrackIndex = trackPieces.IndexOf(startTrack);
+for (int i = 1; i &lt; totalTracksNeeded + 1; i++) {
+
+    Vector3 eulerAngles = getCurrentAngle(startTrack);
+    //the total angle going through one whole track piece
+    Vector3 totalTrackAngle = Vector3.zero;
+
+    if(i &gt; startTracksNeeded) {
+        //then it is time to create a curve instead of just a straight line coming off the start track
+        //calculate the adjustment needed for the curve
+        eulerAngles = angle / curveTracksNeeded * (i - 1 - startTracksNeeded) + getCurrentAngle(startTrack);
+
+        totalTrackAngle = angle / curveTracksNeeded;
+    }
+
+    if (i &gt; startTracksNeeded + curveTracksNeeded) {
+        //back to straight path, but in the angle of the target
+
+        eulerAngles = targetAngle;
+
+        totalTrackAngle = Vector3.zero;
+    }
+
+    if (startTrackIndex + i &lt; trackPieces.Count) {
+        GameObject trackPiece = trackPieces[i + startTrackIndex];
+
+        //reset position and angle before adjusting the track
+        trackPiece.transform.position = Vector3.zero;
+        trackPiece.transform.localEulerAngles = Vector3.zero;
+
+        //adjust the track
+        trackPiece.GetComponent&lt;TrackPiece&gt;().AdjustTrack(totalTrackAngle);
+
+        //calculate adjustments
+        //this finds the last bone plus half of the track size (because position is based off the center of the object
+        Vector3 modifiedPosition = trackPieces[i + startTrackIndex - 1].transform.Find(&quot;Bottom_Rail/Joint_3_3/Joint_1_3/Joint_2_4/Joint_3_4/Joint_4_3/Joint_5_3/Joint_6_3/Joint_7_3/Joint_8_3/Joint_9_3/Joint_10_3&quot;).position;
+
+        //need to offset it by trackBoneSize by the angle (for now just with y part of angle
+        trackPiece.transform.position = modifiedPosition - (new Vector3(Mathf.Sin(eulerAngles.y * Mathf.Deg2Rad), 0, Mathf.Cos(eulerAngles.y * Mathf.Deg2Rad)) * (trackBoneSize * 5));
+
+        //set track rotation (after adjustment to make sure the adjustment process goes well)
+        trackPiece.transform.localEulerAngles = eulerAngles;
+
+    } else {
+
+        //calculate adjustments
+        //this finds the last bone plus half of the track size (because position is based off the center of the object
+        Vector3 modifiedPosition = trackPieces[i + startTrackIndex - 1].transform.Find(&quot;Bottom_Rail/Joint_3_3/Joint_1_3/Joint_2_4/Joint_3_4/Joint_4_3/Joint_5_3/Joint_6_3/Joint_7_3/Joint_8_3/Joint_9_3/Joint_10_3&quot;).position;
+
+        GameObject trackPiece = AddTrackPiece(totalTrackAngle, modifiedPosition, eulerAngles);
+
+    }
+}</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>This creates a straight line until there have been more than the start tracks spawned, then creates the curve, then finishes with straight tracks in the target angle toward the target position.</p>
+<h1>Reaching this point</h1>
+<p>I started out by drawing out all of the lines I was dealing with to attempt to make a curve that fits the required parameters.</p>
+<p><img src="/images/QmZTvsFPN9eMBR1dFwjoSkWMR5PLtDeg5w1mHxqdBERtT2" alt="image.png"></p>
+<p>This helped me visualize all of the lines needed to be created to connect these two angles and where a curve could be created to create a seamless curve.</p>
+<p>I then tried rearranging equations to get the radius of a curve by finding two points on the curve.
+<img src="/images/QmYVzu3Y9eWh8qSQr2Jb9kFdWEnvS7UxapKaycZSTTNHaL" alt="desmos.gif">
+(calculations can be found <a href="https://www.desmos.com/calculator/qqu6so5sfv">here</a>)</p>
+<p>I tried creating <a href="https://www.desmos.com/calculator/wfjan8fdby">another equation</a> to calculate the radius required to create a curve that touches two collision points, but it did not actually work in the most situations, because in most situations, one continuous curve from the start to the target is not possible, and instead there need to be a few straight tracks, then a curve, then a few more straight tracks.</p>
+<p><img src="/images/QmQfg3bFAmDN5Msx6a8HiJT3hxz2AqguSsGfrBnaaTFEgG" alt="image.png">
+(Approximation of what this would look like)</p>
+<p>However this did not actually work practically. I ended up figuring out a much simpler solution (as outlined above).</p>
+<h1>Pull Request</h1>
+<p><a href="https://github.com/ajayyy/VosterCoasterVR/pull/9">https://github.com/ajayyy/VosterCoasterVR/pull/9</a></p>
+<p>You can see the full set of changes in the pull request.</p>
+<h1>GitHub Account</h1>
+<p><a href="https://github.com/ajayyy">https://github.com/ajayyy</a></p></div></div></div></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/building-roller-coasters-complete";window.___webpackCompilationHash="ee9f93a22f5d812d53ee";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2027c615c2b1d449723b.js"],"app":["/app-a8a88917d557b5d5c239.js"],"component---src-pages-404-js":["/component---src-pages-404-js-6e293d823d5e173acc7a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4c00f30d3c318a368679.js"],"component---src-pages-sponsorblock-js":["/component---src-pages-sponsorblock-js-03e17db57ab08e6d8408.js"],"component---src-pages-vostercoaster-js":["/component---src-pages-vostercoaster-js-dee0d7b7fa6b58872b3e.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-d0d2c490581e9ed2d6f1.js"]};/*]]>*/</script><script src="/polyfill-2027c615c2b1d449723b.js" nomodule=""></script><script src="/app-a8a88917d557b5d5c239.js" async=""></script><script src="/framework-c0acfd4b44c09a0159f3.js" async=""></script><script src="/webpack-runtime-f415ec79cfe5feaa0178.js" async=""></script></body></html>

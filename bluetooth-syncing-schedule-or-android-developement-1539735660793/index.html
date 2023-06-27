@@ -1,0 +1,75 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.25.7"/><meta name="theme-color" content="#fff"/><style data-href="/styles.98c208488f7e0918f3b4.css" data-identity="gatsby-global-css">body{margin:8px}.profilepic{border-radius:50%;height:80px;overflow:hidden}#title,.profilepic{vertical-align:middle}#title{background-color:#636363;color:#212121;font-family:sans-serif;font-size:50px;padding:20px;text-align:center;transition:font-size 1s}#title,.title-text{text-decoration:none}.title-text:hover{color:#212121}body{background-color:#333;color:#c4c4c4;font-family:sans-serif;font-size:1.1rem;line-height:1.5}code{font-size:12pt!important}a{color:inherit;transition:color .1s linear}a:hover{color:#fff}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#ccc;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}pre[class*=language-].line-numbers{counter-reset:linenumber;padding-left:3.8em;position:relative}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{border-right:1px solid #999;font-size:100%;left:-3.8em;letter-spacing:-1px;pointer-events:none;position:absolute;top:0;-webkit-user-select:none;user-select:none;width:3em}.line-numbers-rows>span{counter-increment:linenumber;display:block}.line-numbers-rows>span:before{color:#999;content:counter(linenumber);display:block;padding-right:.8em;text-align:right}.blog-post-content{margin:auto;max-width:60%;text-align:left}@media screen and (orientation:portrait){.blog-post-content{max-width:100%}}.blog-post-content img{max-width:100%}.blog-post-container{text-align:center}.gatsby-highlight pre[class*=language-].line-numbers{overflow:initial;padding:0 0 0 2.8em}</style><link rel="icon" href="/favicon-32x32.png?v=a60a5f8134c1a0a70ea7cd9216912b32" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="alternate" type="application/rss+xml" title="Ajay Ramachandran&#x27;s Blog" href="/rss.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="title"><img src="/ajay_profile.jpg" class="profilepic"/> <a class="title-text" href="/">Ajay Ramachandran</a></div><main><div class="blog-post-container"><div class="blog-post"><h1>Bluetooth Syncing Schedule | Android Developement</h1><h2>October 17, 2018</h2><div class="blog-post-content"><h4>Repository</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp</a></p>
+<h1>Server</h1>
+<p><img src="/images/image.png" alt="">
+(Lists all devices and the last time they were pulled at)</p>
+<ul>
+<li>Added ability to undo recent actions
+<ul>
+<li>Merged allNames and scoutNames, and made them use Scout lists instead of String lists.</li>
+</ul>
+</li>
+</ul>
+<p>To do this, an actions class was created. The actions class stores what action happened, and to what object. This data is then used to do the opposite and undo the action.</p>
+<ul>
+<li>Added cap of 25 to past actions</li>
+<li>Changed size of text views to be based off of ems instead of width</li>
+<li>Fixed "You must select at least 6 scouts" not being triggered when it should be because of selectedNames rename</li>
+</ul>
+<p>To make sure a scout is "active" during that match, it sees if they are off at that match or not.</p>
+<ul>
+<li>Now sends schedule to client before pulling</li>
+<li>Converts schedule to string and sends it to client</li>
+<li>Sends name instead of id</li>
+<li>Fixed schedule loading
+<ul>
+<li>Was loading the same number every time by loading at [i] instead of [s]</li>
+</ul>
+</li>
+<li>Adds end characters to the end of all data</li>
+<li>Makes sure full data was sent</li>
+<li>Cuts out END from labels as well</li>
+<li>Fix it skipping the first line</li>
+</ul>
+<h1>Client</h1>
+<ul>
+<li>Made it load schedule based on data recieved</li>
+<li>Uses name sent from server in the schedule</li>
+<li>Refractor and code cleanup</li>
+<li>removed unused commented out code</li>
+<li>Combines split packets</li>
+<li>Sends END at the end of data</li>
+<li>Sends recieved once the message is sent</li>
+<li>Fix END not being added to data. Fixed split packets not combining properly</li>
+</ul>
+<p><code class="language-text">data</code> is a variable that is accumulative of all this data. This is because bluetooth often cuts packets short. To solve this, the application waits until it reaches an end character, and adds up all the data up to that point.</p>
+<p><code class="language-text">message = data + currentSentData
+data += message</code></p>
+<p>changed to:
+<code class="language-text">data = message</code></p>
+<ul>
+<li>Made the userID change when you changed the spinner</li>
+<li>Made userIDSpinner update when a new schedule is sent.
+<ul>
+<li>Also saves the position.</li>
+</ul>
+</li>
+<li>Notifies when the scout is off that match.
+<ul>
+<li>Tells them what match to come back at</li>
+</ul>
+</li>
+<li>Previous toast is closed if a new toast error needs to be - shown</li>
+</ul>
+<p>This is very useful, otherwise Android will lag and show old Toasts until all of them are completely done being shown.</p>
+<ul>
+<li>Removed default schedule</li>
+<li>Disabled "this robot is not at this event" popup as it has been deprecated</li>
+</ul>
+<p>This has not been replaced by the new scheduling system.</p>
+<h4>Pull Requests</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/141">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/141</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/18">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/18</a></p>
+<h4>GitHub Account</h4>
+<p><a href="https://github.com/ajayyy">https://github.com/ajayyy</a></p></div></div></div></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/bluetooth-syncing-schedule-or-android-developement-1539735660793";window.___webpackCompilationHash="ee9f93a22f5d812d53ee";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2027c615c2b1d449723b.js"],"app":["/app-a8a88917d557b5d5c239.js"],"component---src-pages-404-js":["/component---src-pages-404-js-6e293d823d5e173acc7a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4c00f30d3c318a368679.js"],"component---src-pages-sponsorblock-js":["/component---src-pages-sponsorblock-js-03e17db57ab08e6d8408.js"],"component---src-pages-vostercoaster-js":["/component---src-pages-vostercoaster-js-dee0d7b7fa6b58872b3e.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-d0d2c490581e9ed2d6f1.js"]};/*]]>*/</script><script src="/polyfill-2027c615c2b1d449723b.js" nomodule=""></script><script src="/app-a8a88917d557b5d5c239.js" async=""></script><script src="/framework-c0acfd4b44c09a0159f3.js" async=""></script><script src="/webpack-runtime-f415ec79cfe5feaa0178.js" async=""></script></body></html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.25.7"/><meta name="theme-color" content="#fff"/><style data-href="/styles.98c208488f7e0918f3b4.css" data-identity="gatsby-global-css">body{margin:8px}.profilepic{border-radius:50%;height:80px;overflow:hidden}#title,.profilepic{vertical-align:middle}#title{background-color:#636363;color:#212121;font-family:sans-serif;font-size:50px;padding:20px;text-align:center;transition:font-size 1s}#title,.title-text{text-decoration:none}.title-text:hover{color:#212121}body{background-color:#333;color:#c4c4c4;font-family:sans-serif;font-size:1.1rem;line-height:1.5}code{font-size:12pt!important}a{color:inherit;transition:color .1s linear}a:hover{color:#fff}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#ccc;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}pre[class*=language-].line-numbers{counter-reset:linenumber;padding-left:3.8em;position:relative}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{border-right:1px solid #999;font-size:100%;left:-3.8em;letter-spacing:-1px;pointer-events:none;position:absolute;top:0;-webkit-user-select:none;user-select:none;width:3em}.line-numbers-rows>span{counter-increment:linenumber;display:block}.line-numbers-rows>span:before{color:#999;content:counter(linenumber);display:block;padding-right:.8em;text-align:right}.blog-post-content{margin:auto;max-width:60%;text-align:left}@media screen and (orientation:portrait){.blog-post-content{max-width:100%}}.blog-post-content img{max-width:100%}.blog-post-container{text-align:center}.gatsby-highlight pre[class*=language-].line-numbers{overflow:initial;padding:0 0 0 2.8em}</style><link rel="icon" href="/favicon-32x32.png?v=a60a5f8134c1a0a70ea7cd9216912b32" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="alternate" type="application/rss+xml" title="Ajay Ramachandran&#x27;s Blog" href="/rss.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="title"><img src="/ajay_profile.jpg" class="profilepic"/> <a class="title-text" href="/">Ajay Ramachandran</a></div><main><div class="blog-post-container"><div class="blog-post"><h1>Scheduling Creation | Android Development</h1><h2>October 07, 2018</h2><div class="blog-post-content"><h4>Repository</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp</a></p>
+<h1>What is this</h1>
+<blockquote>
+<p>This is an app made for a FIRST robotics team.</p>
+<p>One of the most important strategic parts of the competition is scouting. Scouting is recording data about other robots to analyse and see what robots are good at what and bad at what.</p>
+<p>This is an app to do scouting. Recording data on paper and then putting it in a database is convoluted and wasteful, so we built an app to replace this system. 6 people use the app independently on Android > devices and record data about one robot each per game. A server app can then pull data from all the devices to combine it all in one.</p>
+</blockquote>
+<h3>New Features</h3>
+<ul>
+<li>Save device name in shared preferences</li>
+<li>Fixed issue with names not deselecting
+<ul>
+<li>If they are removed from the list while selected and were added in a previous runtime</li>
+</ul>
+</li>
+</ul>
+<p>When a name was removed while selected, it was removed from the allNames list but not the
+selectedNames list.</p>
+<ul>
+<li>Made a calculatable schedule for each user</li>
+</ul>
+<p>For scouting, there are 6 robots per match that need to be watched. This function needs to figure out who to switch on and off when, and which robot each person is watching (scouting). This does this by simulating someone swapping names every match like you would do on paper.</p>
+<p>It creates a list of the on and off scouts</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token comment">//scouts currently scouting or not</span>
+<span class="token class-name">Scout</span><span class="token punctuation">[</span><span class="token punctuation">]</span> scoutsOn <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scout</span><span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Scout</span><span class="token punctuation">></span></span> scoutsOff <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span></span></pre></div>
+<p>It then finds who needs to swap with who if there is someone to swap with.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token comment">//calculate the schedule for this match</span>
+<span class="token comment">//find scouts to switch on (the scouts that have been off >= targetTimeOff)</span>
+<span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Scout</span><span class="token punctuation">></span></span> scoutsToSwitchOn <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> scoutsOff<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	 <span class="token keyword">if</span> <span class="token punctuation">(</span>matchNum <span class="token operator">-</span> scoutsOff<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">.</span>timeOff <span class="token operator">>=</span> targetTimeOff <span class="token operator">&amp;&amp;</span> scoutsToSwitchOn<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			 scoutsToSwitchOn<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>scoutsOff<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	 <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//find scouts to switch off (scouts with the highest time)</span>
+<span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Scout</span><span class="token punctuation">></span></span> scoutsToSwitchOff <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//sort by time on</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> scoutsOn<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	 <span class="token comment">//the index to add this scout when sorted</span>
+	 <span class="token keyword">int</span> indexToAdd <span class="token operator">=</span> scoutsToSwitchOff<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	 <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> s <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> s <span class="token operator">&lt;</span> scoutsToSwitchOff<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> s<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			 <span class="token keyword">if</span> <span class="token punctuation">(</span>matchNum <span class="token operator">-</span> scoutsOn<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>timeOn <span class="token operator">></span> matchNum <span class="token operator">-</span> scoutsToSwitchOff<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">.</span>timeOn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+					 indexToAdd <span class="token operator">=</span> s<span class="token punctuation">;</span>
+					 <span class="token keyword">break</span><span class="token punctuation">;</span>
+			 <span class="token punctuation">}</span>
+	 <span class="token punctuation">}</span>
+
+	 <span class="token comment">//add at index</span>
+	 scoutsToSwitchOff<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>indexToAdd<span class="token punctuation">,</span> scoutsOn<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>The second for loop sorts the scouts on by how long they have been on. This is then used to switch the people ready to switch back on with the people who have been working the longest.</p>
+<p>Using that information, it swaps the scouts.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token comment">//swap scouts on with scouts off</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> scoutsToSwitchOn<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	 <span class="token comment">//scout switching on and off</span>
+	 <span class="token class-name">Scout</span> switchingOn <span class="token operator">=</span> scoutsToSwitchOn<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	 <span class="token class-name">Scout</span> switchingOff <span class="token operator">=</span> scoutsToSwitchOff<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	 scoutsOn<span class="token punctuation">[</span><span class="token function">getScout</span><span class="token punctuation">(</span>switchingOff<span class="token punctuation">.</span>id<span class="token punctuation">,</span> scoutsOn<span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token operator">=</span> switchingOn<span class="token punctuation">;</span>
+
+	 scoutsOff<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>switchingOn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	 scoutsOff<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>switchingOff<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+	 <span class="token comment">//update timeOff and timeOn</span>
+	 switchingOn<span class="token punctuation">.</span>timeOn <span class="token operator">=</span> matchNum<span class="token punctuation">;</span>
+	 switchingOff<span class="token punctuation">.</span>timeOff <span class="token operator">=</span> matchNum<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>This is then repeated for all the matches</p>
+<ul>
+<li>Added scroll view to name selector</li>
+<li>Prevented crash when less than 6 scouts were selected</li>
+</ul>
+<p>It is not possible to make a schedule with less than 6 scouts, a warning must be given to the user.</p>
+<ul>
+<li>Removed button to set minimum version number</li>
+</ul>
+<p>I made the minimum version number auto update when someone types.
+This is used to make sure the bluetooth clients this app connects to are up to date to not break the system.</p>
+<ul>
+<li>Added ability to change target time off in the app</li>
+<li>Now can add a scout starting at a match number without disrupting the currently running schedule.</li>
+</ul>
+<ul>
+<li>Fixed checkboxes getting reversed</li>
+<li>Made it save and load the match number the selected names were selected at</li>
+<li>Added support for scouts that join and leave the selected list multiple times throughout the day</li>
+<li>Made it so that you can disable and enable scouts continuously over the course of the day
+<ul>
+<li>It saves the match numbers the scout starts and stops</li>
+<li>It will tell you if you disable a scout when no one can replace them</li>
+</ul>
+</li>
+</ul>
+<p>This is a very important feature. If someone needs to leave and do something else, you can type what match they are leaving or starting at to make that user only matter during certain matches.</p>
+<p><img src="/images/image.png" alt="">
+(The names in the image above are customisable, I put them as numbers for testing purposes)</p>
+<p>To do this, a history of every time a user was selected and deselected is required to be kept.</p>
+<ul>
+<li>saves history of disabling and enabling scouts in shared preferences</li>
+<li>Fixed issue where scout sometimes wasn't taken off</li>
+<li>Fixed parts of scheduling clearing eachother</li>
+<li>Make the switching on and off inclusive
+<ul>
+<li>If you switch on at match 25, you will be on at match 25.</li>
+<li>If you switch off at match 30, you will be off at match 30.</li>
+</ul>
+</li>
+<li>Made checkboxes set to their last checked position</li>
+</ul>
+<p>This was required to make sure that when you returned, it looks exactly like when you closed the app. Before, if the scout was EVER checked off, it would start checked next time you opened the app.</p>
+<ul>
+<li>
+<p>Made time off be changed based on match number</p>
+<ul>
+<li>You can change the time off starting at match 5 for example, and after that point scouts will get 3 matches off instead of 2.</li>
+</ul>
+<p><img src="/images/image.png" alt=""></p>
+</li>
+<li>
+<p>Renamed mislabeled variables (Changed TextView to EditText)</p>
+</li>
+</ul>
+<h4>Pull Request</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/17">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/17</a></p>
+<h4>GitHub Account</h4>
+<p><a href="https://github.com/ajayyy">https://github.com/ajayyy</a></p></div></div></div></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/scheduling-creation-or-android-development-1538942995465";window.___webpackCompilationHash="ee9f93a22f5d812d53ee";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2027c615c2b1d449723b.js"],"app":["/app-a8a88917d557b5d5c239.js"],"component---src-pages-404-js":["/component---src-pages-404-js-6e293d823d5e173acc7a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4c00f30d3c318a368679.js"],"component---src-pages-sponsorblock-js":["/component---src-pages-sponsorblock-js-03e17db57ab08e6d8408.js"],"component---src-pages-vostercoaster-js":["/component---src-pages-vostercoaster-js-dee0d7b7fa6b58872b3e.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-d0d2c490581e9ed2d6f1.js"]};/*]]>*/</script><script src="/polyfill-2027c615c2b1d449723b.js" nomodule=""></script><script src="/app-a8a88917d557b5d5c239.js" async=""></script><script src="/framework-c0acfd4b44c09a0159f3.js" async=""></script><script src="/webpack-runtime-f415ec79cfe5feaa0178.js" async=""></script></body></html>

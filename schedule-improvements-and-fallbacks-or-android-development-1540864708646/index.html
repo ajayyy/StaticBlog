@@ -1,0 +1,103 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.25.7"/><meta name="theme-color" content="#fff"/><style data-href="/styles.98c208488f7e0918f3b4.css" data-identity="gatsby-global-css">body{margin:8px}.profilepic{border-radius:50%;height:80px;overflow:hidden}#title,.profilepic{vertical-align:middle}#title{background-color:#636363;color:#212121;font-family:sans-serif;font-size:50px;padding:20px;text-align:center;transition:font-size 1s}#title,.title-text{text-decoration:none}.title-text:hover{color:#212121}body{background-color:#333;color:#c4c4c4;font-family:sans-serif;font-size:1.1rem;line-height:1.5}code{font-size:12pt!important}a{color:inherit;transition:color .1s linear}a:hover{color:#fff}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#ccc;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}pre[class*=language-].line-numbers{counter-reset:linenumber;padding-left:3.8em;position:relative}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{border-right:1px solid #999;font-size:100%;left:-3.8em;letter-spacing:-1px;pointer-events:none;position:absolute;top:0;-webkit-user-select:none;user-select:none;width:3em}.line-numbers-rows>span{counter-increment:linenumber;display:block}.line-numbers-rows>span:before{color:#999;content:counter(linenumber);display:block;padding-right:.8em;text-align:right}.blog-post-content{margin:auto;max-width:60%;text-align:left}@media screen and (orientation:portrait){.blog-post-content{max-width:100%}}.blog-post-content img{max-width:100%}.blog-post-container{text-align:center}.gatsby-highlight pre[class*=language-].line-numbers{overflow:initial;padding:0 0 0 2.8em}</style><link rel="icon" href="/favicon-32x32.png?v=a60a5f8134c1a0a70ea7cd9216912b32" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=a60a5f8134c1a0a70ea7cd9216912b32"/><link rel="alternate" type="application/rss+xml" title="Ajay Ramachandran&#x27;s Blog" href="/rss.xml"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div id="title"><img src="/ajay_profile.jpg" class="profilepic"/> <a class="title-text" href="/">Ajay Ramachandran</a></div><main><div class="blog-post-container"><div class="blog-post"><h1>Schedule Improvements and Fallbacks | Android Development</h1><h2>October 30, 2018</h2><div class="blog-post-content"><h4>Repository</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp</a></p>
+<h1>What is this</h1>
+<blockquote>
+<p>This is an app made for a FIRST robotics team.</p>
+<p>One of the most important strategic parts of the competition is scouting. Scouting is recording data about other robots to analyse and see what robots are good at what and bad at what.</p>
+<p>This is an app to do scouting. Recording data on paper and then putting it in a database is convoluted and wasteful, so we built an app to replace this system. 6 people use the app independently on Android devices and record data about one robot each per game. A server app can then pull data from all the devices to combine it all in one. This act of recording data is called scouting, and is done by someone called a scout. Each set of data is for one match of the game.</p>
+</blockquote>
+<p><img src="/images/image.png" alt="">
+<img src="/images/Screenshot_Lake_Effect_Scouting_App_20180914-162415.png" alt=""></p>
+<h3>New Features</h3>
+<ul>
+<li>
+<p>Made it save the schedule in the shared preferences</p>
+</li>
+<li>
+<p>Made it so that you can override the schedule if nessesary</p>
+</li>
+<li>
+<p>Removed print statement</p>
+</li>
+<li>
+<p>Removed useless commented out code</p>
+</li>
+<li>
+<p>Made it tell the user the next match off</p>
+</li>
+</ul>
+<p>Before, the user would not know when they were off until they typed in that number when they started scouting and were told that there was no robot to scout that match.</p>
+<p>Now, it shows how many matches left until that person is off at the top of the screen at all times. This is calculated by going through the schedule and seeing when there are no robots to scout.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token keyword">int</span> matchBack <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">//find next match number</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> matchNumber <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> schedules<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>userID<span class="token punctuation">)</span><span class="token punctuation">.</span>robots<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	 <span class="token keyword">if</span> <span class="token punctuation">(</span>schedules<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>userID<span class="token punctuation">)</span><span class="token punctuation">.</span>robots<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			 matchBack <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+			 <span class="token keyword">break</span><span class="token punctuation">;</span>
+	 <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">return</span> matchBack<span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<ul>
+<li>
+<p>Renamed "round" to matchNumber</p>
+</li>
+<li>
+<p>Updates main activity whe a new schedule is sent</p>
+</li>
+<li>
+<p>Allows you to use no scout name if overriding schedule</p>
+</li>
+<li>
+<p>Fixed crash when trying to change time until back on.</p>
+<ul>
+<li>Also, fixed functions checking how much longer until the scout is back on, or back off.</li>
+</ul>
+</li>
+<li>
+<p>Match number properly updates when typed in</p>
+</li>
+<li>
+<p>Added back UUID</p>
+</li>
+<li>
+<p>Changed end splitter from "END" to "{e}".</p>
+</li>
+<li>
+<p>Also set the end splitter to be a variable to easily change</p>
+</li>
+</ul>
+<p>Before the end splitter was just END, however this is not best. If the data actually contains the word "END" in it, the system could break and end abrubdtly. Now the end splitter is something that is escaped from the data and is easily changed.</p>
+<p>The end splitter is a string put on the end of the data so that the server can make sure it recieved all the info.</p>
+<ul>
+<li>Removed deprecated gradle methods</li>
+<li>Made it so that once you override the schedule, the schedule is overriden until an app restart.</li>
+</ul>
+<p>Overriding schedule is nessesary when testing the app and if the schedule breaks. Before, if you overrided the schedule once, you would have to do it again when scouting another match. Now, the schedule will stay overridden until the app is restarted.</p>
+<ul>
+<li>Prevented updating robot number if schedule is overridden.</li>
+<li>Added way to make a customisable scout name after overriding</li>
+</ul>
+<p>Before, the scout name (the name of the person watching and recording data for this match) was just set to "No scout" if the schedule was overridden, now there is a way to set that.</p>
+<h3>Server</h3>
+<ul>
+<li>Added reset names button
+<ul>
+<li>Removes all users added at once with one button press.</li>
+</ul>
+</li>
+<li>Switched to better contains method</li>
+</ul>
+<p>Before it was using <code class="language-text">string.contains()</code> which is just incorrect and only works if the classes are the same. (If you use new String(), it will not work even with the same string contents).</p>
+<p>Instead, you must use a for loop and check if <code class="language-text">string.equals()</code> as this checked the actual contents of the strings instead of the instance IDs.</p>
+<h4>Pull Requests</h4>
+<p><a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/19">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/19</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/20">https://github.com/LakeEffectRobotics/LakeEffectScoutingServerApp/pull/20</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/142">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/142</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/143">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/143</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/155">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/155</a>
+<a href="https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/157">https://github.com/LakeEffectRobotics/LakeEffectScoutingApp/pull/157</a></p>
+<h4>GitHub Account</h4>
+<p><a href="https://github.com/ajayyy">https://github.com/ajayyy</a></p></div></div></div></main></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/schedule-improvements-and-fallbacks-or-android-development-1540864708646";window.___webpackCompilationHash="ee9f93a22f5d812d53ee";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2027c615c2b1d449723b.js"],"app":["/app-a8a88917d557b5d5c239.js"],"component---src-pages-404-js":["/component---src-pages-404-js-6e293d823d5e173acc7a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4c00f30d3c318a368679.js"],"component---src-pages-sponsorblock-js":["/component---src-pages-sponsorblock-js-03e17db57ab08e6d8408.js"],"component---src-pages-vostercoaster-js":["/component---src-pages-vostercoaster-js-dee0d7b7fa6b58872b3e.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-d0d2c490581e9ed2d6f1.js"]};/*]]>*/</script><script src="/polyfill-2027c615c2b1d449723b.js" nomodule=""></script><script src="/app-a8a88917d557b5d5c239.js" async=""></script><script src="/framework-c0acfd4b44c09a0159f3.js" async=""></script><script src="/webpack-runtime-f415ec79cfe5feaa0178.js" async=""></script></body></html>
