@@ -1,6 +1,6 @@
 ---
 path: "/dearrow-casual-mode"
-date: "2024-03-07"
+date: "2025-03-07"
 title: "DeArrow casual mode"
 image: "https://dearrow.ajay.app/casual-vs-normal.png"
 tags: '["development","programming","sponsorblock"]'
